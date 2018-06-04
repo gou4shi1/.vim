@@ -1,0 +1,1 @@
+/home/gou4shi1/cpp/common-files/.ycm_extra_conf.py

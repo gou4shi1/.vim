@@ -1,0 +1,120 @@
+#include<bits/stdc++.h>
+struct FastIO
+{
+    static const int S = 1310720;
+    int wpos;
+    char wbuf[S], endofFile;
+    FastIO() : wpos(0), endofFile(0) {}
+    inline int xchar()
+    {
+        if(endofFile) exit(0);
+        static char buf[S];
+        static int len = 0, pos = 0;
+        if(pos == len)
+            pos = 0, len = fread(buf, 1, S, stdin);
+        if(pos == len)
+        {
+            endofFile = 1;
+            return '\n';
+        }
+        return buf[pos ++];
+    }
+    inline unsigned long long xuint()//输入正整数
+    {
+        int c = xchar();
+        unsigned long long x = 0;
+        while(c <= 32)
+            c = xchar();
+        for(; '0' <= c && c <= '9'; c = xchar())
+            x = x * 10 + c - '0';
+        return x;
+    }
+    inline long long xint()//输入整数
+    {
+        long long s = 1;
+        int c = xchar(), x = 0;
+        while(c <= 32)
+            c = xchar();
+        if(c == '-')
+            s = -1, c = xchar();
+        for(; '0' <= c && c <= '9'; c = xchar())
+            x = x * 10 + c - '0';
+        return x * s;
+    }
+    inline void xstring(char *s)//输入字符串
+    {
+        int c = xchar();
+        while(c <= 32)
+            c = xchar();
+        for(; c > 32; c = xchar())
+            * s++ = c;
+        *s = 0;
+    }
+    inline double xdouble()//输入double数据
+    {
+        bool sign = 0;
+        char ch = xchar();
+        double x = 0;
+        while(ch <= 32)
+            ch = xchar();
+        if(ch == '-')
+            sign = 1, ch = xchar();
+        for(; '0' <= ch && ch <= '9'; ch = xchar())
+            x = x * 10 + ch - '0';
+        if(ch == '.')
+        {
+            double tmp = 1;
+            ch = xchar();
+            for(; ch >= '0' && ch <= '9'; ch = xchar())
+                tmp /= 10.0, x += tmp * (ch - '0');
+        }
+        if(sign)
+            x = -x;
+        return x;
+    }
+    inline void wchar(int x)//输出char型
+    {
+        if(wpos == S)
+            fwrite(wbuf, 1, S, stdout), wpos = 0;
+        wbuf[wpos ++] = x;
+    }
+    inline void wint(long long x)//输出int型
+    {
+        if(x < 0)
+            wchar('-'), x = -x;
+        char s[24];
+        int n = 0;
+        while(x || !n)
+            s[n ++] = '0' + x % 10, x /= 10;
+        while(n--)
+            wchar(s[n]);
+    }
+    inline void wstring(const char *s)//输出字符串
+    {
+        while(*s)
+            wchar(*s++);
+    }
+    inline void wdouble(double x, int y = 6)//输出double数本身，精度
+    {
+        static long long mul[] = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000, 10000000000LL, 100000000000LL, 1000000000000LL, 10000000000000LL, 100000000000000LL, 1000000000000000LL, 10000000000000000LL, 100000000000000000LL};
+        if(x < -1e-12)
+            wchar('-'), x = -x;
+        x *= mul[y];
+        long long x1 = (long long) floorl(x);
+        if(x - floor(x) >= 0.5)
+            ++x1;
+        long long x2 = x1 / mul[y], x3 = x1 - x2 * mul[y];
+        wint(x2);
+        if(y > 0)
+        {
+            wchar('.');
+            for(size_t i = 1; i < y && x3 * mul[i] < mul[y]; wchar('0'), ++i);
+            wint(x3);
+        }
+    }
+    ~FastIO()
+    {
+        if(wpos)
+            fwrite(wbuf, 1, wpos, stdout), wpos = 0;
+    }
+} io;
