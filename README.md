@@ -40,7 +40,7 @@ https://goushi.me/vim
 
 
 * `plugin`
-  `pack generate` 命令（一般会被自动执行）将把 `.pack` 目录里的文件整合成该目录下的一个文件 `_pack.vim`
+  执行`pack generate` 命令（一般会被自动执行）将把 `.pack` 目录里的文件整合成该目录下的一个文件 `_pack.vim`
 
 * `after/ftplugin`
   存放针对各文件类型的自定义配置
