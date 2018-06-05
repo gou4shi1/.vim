@@ -13,8 +13,8 @@ set mouse=a
 " indent
 set expandtab
 set tabstop=4
-set shiftwidth=4
 set softtabstop=4
+set shiftwidth=4
 "set smartindent
 "set autoindent
 "filetype indent on
@@ -183,7 +183,7 @@ nnoremap <Leader>la a[latex][/latex]<ESC>7hi
 nnoremap <Leader>nl a\\<CR>\indent <ESC>
 
 " toggle spell checking
-nnoremap <Leader>sp :setlocal spell! spelllang=en,cjk<CR>
+nnoremap <Leader><Leader>s :setlocal spell! spelllang=en,cjk<CR>
 
 " cmake
 "nnoremap <Leader>cm :cd build<CR>:AsyncRun -save=1 -post='cd ..' cmake ..<CR>
