@@ -216,6 +216,32 @@ autocmd FileType tex packadd vimtex
 "0 if you want to enable it later via :RainbowToggle
 let g:rainbow_active = 1
 
+" machakann/vim-sandwich
+" use vim-surround kepmappings
+runtime macros/sandwich/keymap/surround.vim
+let g:sandwich#recipes += [
+            \   {'buns': ['{ ', ' }'], 'nesting': 1, 'match_syntax': 1,
+            \    'kind': ['add', 'replace'], 'action': ['add'], 'input': ['{']},
+            \
+            \   {'buns': ['[ ', ' ]'], 'nesting': 1, 'match_syntax': 1,
+            \    'kind': ['add', 'replace'], 'action': ['add'], 'input': ['[']},
+            \
+            \   {'buns': ['( ', ' )'], 'nesting': 1, 'match_syntax': 1,
+            \    'kind': ['add', 'replace'], 'action': ['add'], 'input': ['(']},
+            \
+            \   {'buns': ['{\s*', '\s*}'],   'nesting': 1, 'regex': 1,
+            \    'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'],
+            \    'action': ['delete'], 'input': ['{']},
+            \
+            \   {'buns': ['\[\s*', '\s*\]'], 'nesting': 1, 'regex': 1,
+            \    'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'],
+            \    'action': ['delete'], 'input': ['[']},
+            \
+            \   {'buns': ['(\s*', '\s*)'],   'nesting': 1, 'regex': 1,
+            \    'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'],
+            \    'action': ['delete'], 'input': ['(']},
+            \ ]
+
 " majutsushi/tagbar
 nnoremap <Leader><Leader>t :TagbarToggle<CR>
 
@@ -325,7 +351,7 @@ let g:polyglot_disabled = ['latex']
 
 " vim-markdown
 command MD set filetype=markdown
-
+let g:vim_markdown_new_list_item_indent = 2
 
 " skywind3000/asyncrun.vim
 " open quickfix window automatically at 8 lines height after command starts
