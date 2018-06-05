@@ -8,6 +8,7 @@ https://goushi.me/vim
 
 # 目录结构
 
+(父目录为 `~/.vim`)
 （可参考 [这里](http://learnvimscriptthehardway.stevelosh.com/chapters/42.html) 或者 [这里](http://www.panozzaj.com/blog/2011/09/09/vim-directory-structure/)）
 
 * `vimrc`
