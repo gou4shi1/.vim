@@ -1,5 +1,5 @@
 " open quickfix window automatically at 8 lines height after command starts
-let g:asyncrun_open = 8
+"let g:asyncrun_open = 8
 
 " open the quickfix window when something adds to it
 autocmd QuickFixCmdPost * call asyncrun#quickfix_toggle(8, 1)
