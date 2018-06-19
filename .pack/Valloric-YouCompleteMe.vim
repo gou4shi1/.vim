@@ -19,6 +19,6 @@ set tags+=~/.vim/tags/stdcpp.tags
 
 nnoremap <Leader>tc :YcmCompleter GoToDeclaration<CR>
 nnoremap <Leader>td :YcmCompleter GoToDefinition<CR>
-nnoremap <Leader><Leader>f :YcmCompleter FixIt<CR>
+nnoremap <Leader><Leader>y :YcmCompleter FixIt<CR>
 nnoremap <Leader>gd :YcmCompleter GetDoc<CR>
 nnoremap <Leader>gt :YcmCompleter GetType<CR>
