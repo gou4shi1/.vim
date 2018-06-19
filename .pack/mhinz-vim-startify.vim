@@ -10,6 +10,12 @@ let g:startify_lists = [
             \ { 'type': 'commands',  'header': [   'Commands']       },
             \ ]
 
+" bookmarks
+  let g:startify_bookmarks    = [
+        \{'v': '~/.vim/vimrc'},
+        \{'z': '~/.zshrc'},
+\]
+
 " highlight
 hi link StartifyBracket Punctuation
 hi link StartifyFile String
