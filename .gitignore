@@ -1,4 +1,5 @@
 pack
+plugin/_pack.vim
 viminfo
 yankring_history_v2.txt
 .netrwhist
