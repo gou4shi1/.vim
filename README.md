@@ -80,11 +80,3 @@ https://goushi.me/vim
   
 * `.ycm_extra_conf.py`  
   全局默认 YCM 配置文件  
-  
-* `build-color_coded.sh`  
-  color_coded 插件的自动编译脚本  
-  （不需要手动执行）  
-  
-* `color_coded.vim`  
-  自定义 color_coded 的高亮颜色  
-  （需要被 `build-color_coded.sh` 复制进 `pack/highlight/opt/color_coded` 里面）  

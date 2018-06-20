@@ -140,14 +140,11 @@
   name: "iamcco/mathjax-support-for-mkdp"
   opt: true
 - 
-  build: "~/.vim/build-color_coded.sh"
+  build: "./build.sh"
   category: highlight
-  for: 
-    - cpp
-    - c
   local: false
-  name: jeaye/color_coded
-  opt: true
+  name: gou4shi1/color_coded
+  opt: false
 - 
   category: edit
   local: false
