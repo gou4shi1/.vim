@@ -1,6 +1,6 @@
 func! CppCompile()
-    let FLAG = "-D LOCAL -std=c++14 -Wall -Wno-unused-result -g"
-    exe "AsyncRun g++ " . FLAG . " % -o %<"
+    let FLAG = "-D LOCAL -std=c++14 -W -g"
+    exe "AsyncRun clang++ " . FLAG . " % -o %<"
 endfunc
 nnoremap <buffer> <F5> :call CppCompile()<CR>
 
