@@ -154,6 +154,11 @@ runtime ftplugin/man.vim
 " use <Space> as <Leader>
 let mapleader = "\<space>"
 
+" time out
+set timeoutlen=350
+set ttimeout
+set ttimeoutlen=100
+
 " Quick select whole file
 nnoremap <leader>a ggVG
 
