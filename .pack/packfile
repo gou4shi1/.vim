@@ -90,6 +90,18 @@
   name: "gou4shi1/YCM-Generator"
   opt: false
 - 
+  build: ./build.sh
+  category: highlight
+  local: false
+  name: gou4shi1/color_coded
+  opt: false
+- 
+  build: ./install.sh
+  category: default
+  local: false
+  name: "gou4shi1/git-slides"
+  opt: true
+- 
   category: completion
   local: false
   name: gou4shi1/ultisnips
@@ -108,7 +120,7 @@
 - 
   category: navigation
   local: false
-  name: "haya14busa/incsearch-easymotion"
+  name: "haya14busa/incsearch-easymotion.vim"
   opt: false
 - 
   category: navigation
@@ -139,12 +151,6 @@
   local: false
   name: "iamcco/mathjax-support-for-mkdp"
   opt: true
-- 
-  build: "./build.sh"
-  category: highlight
-  local: false
-  name: gou4shi1/color_coded
-  opt: false
 - 
   category: edit
   local: false
@@ -254,7 +260,7 @@
   name: "sheerun/vim-polyglot"
   opt: false
 - 
-  category: default
+  category: run
   local: false
   name: skywind3000/asyncrun.vim
   opt: false
@@ -262,6 +268,11 @@
   category: edit
   local: false
   name: "terryma/vim-multiple-cursors"
+  opt: false
+- 
+  category: run
+  local: false
+  name: "thinca/vim-quickrun"
   opt: false
 - 
   category: git
@@ -319,9 +330,19 @@
   name: "vim-scripts/DrawIt"
   opt: false
 - 
+  category: highlight
+  local: false
+  name: "vim-scripts/SyntaxRange"
+  opt: false
+- 
   category: default
   local: false
   name: "vim-scripts/YankRing.vim"
+  opt: false
+- 
+  category: default
+  local: false
+  name: "vim-scripts/ingo-library"
   opt: false
 - 
   category: linting
