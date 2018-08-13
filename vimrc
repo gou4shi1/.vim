@@ -86,11 +86,6 @@ set nolangremap
 " Patterns to ignore for expand(), ctrlp, etc.
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.swp,*~,._*,*.pyc,*__pycache__*,*.egg-info
 
-" time out for key codes
-set ttimeout
-" wait up to 50ms after Esc for special key
-set ttimeoutlen=50
-
 " recovery
 set undofile
 set undodir=~/.vim/undo-history
@@ -183,12 +178,12 @@ command W w !sudo tee % > /dev/null
 " %%->local path
 cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
 
+" toggle spell checking
+nnoremap <Leader><Leader>s :setlocal spell! spelllang=en,cjk<CR>
+
 " latex
 nnoremap <Leader>la a[latex][/latex]<ESC>7hi
 nnoremap <Leader>nl a\\<CR>\indent <ESC>
-
-" toggle spell checking
-nnoremap <Leader><Leader>s :setlocal spell! spelllang=en,cjk<CR>
 
 " cmake
 "nnoremap <Leader>cm :cd build<CR>:AsyncRun -save=1 -post='cd ..' cmake ..<CR>
