@@ -21,7 +21,7 @@ set shiftwidth=4
 
 " fold
 set nofoldenable
-set foldmethod=syntax
+"set foldmethod=syntax
 "set foldmethod=indent
 
 " $ . * ^ will be taken literally in regex
