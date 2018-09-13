@@ -167,6 +167,11 @@
   name: "junegunn/vim-easy-align"
   opt: false
 - 
+  category: navigation
+  local: false
+  name: "justinmk/vim-dirvish"
+  opt: false
+- 
   category: appearance
   local: false
   name: "kshenoy/vim-signature"
