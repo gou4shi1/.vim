@@ -20,6 +20,12 @@
   name: "Xuyuanp/nerdtree-git-plugin"
   opt: true
 - 
+  build: ./install.sh
+  category: navigation
+  local: false
+  name: Yggdroot/LeaderF
+  opt: false
+- 
   category: git
   local: false
   name: "airblade/vim-gitgutter"
@@ -33,11 +39,6 @@
   category: navigation
   local: false
   name: "andymass/vim-matchup"
-  opt: false
-- 
-  category: navigation
-  local: false
-  name: ctrlpvim/ctrlp.vim
   opt: false
 - 
   category: navigation
@@ -63,11 +64,6 @@
   category: navigation
   local: false
   name: "easymotion/vim-easymotion"
-  opt: false
-- 
-  category: navigation
-  local: false
-  name: "felikz/ctrlp-py-matcher"
   opt: false
 - 
   category: appearance
