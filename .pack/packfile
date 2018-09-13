@@ -18,7 +18,7 @@
   category: git
   local: false
   name: "Xuyuanp/nerdtree-git-plugin"
-  opt: false
+  opt: true
 - 
   category: git
   local: false
