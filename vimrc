@@ -150,7 +150,7 @@ runtime ftplugin/man.vim
 let mapleader = "\<space>"
 
 " time out
-set timeoutlen=350
+set timeoutlen=500
 set ttimeout
 set ttimeoutlen=100
 
