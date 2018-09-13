@@ -4,8 +4,10 @@ noremap <C-f>u :LeaderfMru<CR>
 noremap <C-f>f :LeaderfFunction!<CR>
 noremap <C-f>t :LeaderfTag<CR>
 noremap <C-f>l :LeaderfLine<CR>
+noremap <C-f>c :LeaderfHistoryCmd<CR>
+noremap <C-f>s :LeaderfHistorySearch<CR>
+noremap <C-f>h :LeaderfHelp<CR>
 
-let g:Lf_HideHelp = 1
 let g:Lf_WindowHeight = 0.30
 let g:Lf_StlColorscheme = 'powerline'
 let g:Lf_StlSeparator = { 'left': '', 'right': '' }
