@@ -106,6 +106,13 @@ augroup vimStartup
 
 augroup END
 
+" use python3 rather than python2
+" vim compiled with dynamic py2 and py3 support
+" but py2 and py3 can not be load at the same time
+" firstly call python3 will load py3 firstly
+" which will disable py2
+python3 1+1
+
 """""""""""""""""""""""""""""" Appearance
 " background
 set background=dark
