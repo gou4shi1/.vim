@@ -40,11 +40,6 @@
   name: ctrlpvim/ctrlp.vim
   opt: false
 - 
-  category: default
-  local: false
-  name: danro/rename.vim
-  opt: false
-- 
   category: navigation
   local: false
   name: "derekwyatt/vim-fswitch"
@@ -278,6 +273,11 @@
   category: run
   local: false
   name: "thinca/vim-quickrun"
+  opt: false
+- 
+  category: default
+  local: false
+  name: "tpope/vim-eunuch"
   opt: false
 - 
   category: git
