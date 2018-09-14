@@ -33,11 +33,6 @@
 - 
   category: navigation
   local: false
-  name: "alvan/vim-indexer"
-  opt: false
-- 
-  category: navigation
-  local: false
   name: "andymass/vim-matchup"
   opt: false
 - 
@@ -178,6 +173,11 @@
   category: edit
   local: false
   name: lilydjwg/fcitx.vim
+  opt: false
+- 
+  category: navigation
+  local: false
+  name: "ludovicchabant/vim-gutentags"
   opt: false
 - 
   category: highlight
