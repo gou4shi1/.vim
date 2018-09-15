@@ -1,0 +1,7 @@
+echo 'YouCompleteMe'
+cd ~/.vim/pack/completion/start/YouCompleteMe
+python3 install.py --clang-completer
+
+echo 'color_coded'
+cd ~/.vim/pack/highlight/start/color_coded
+./build.sh
