@@ -9,7 +9,6 @@
   name: "Chiel92/vim-autoformat"
   opt: false
 - 
-  build: "python3 install.py --clang-completer"
   category: completion
   local: false
   name: Valloric/YouCompleteMe
@@ -76,7 +75,6 @@
   name: "gou4shi1/YCM-Generator"
   opt: false
 - 
-  build: ./build.sh
   category: highlight
   local: false
   name: gou4shi1/color_coded
