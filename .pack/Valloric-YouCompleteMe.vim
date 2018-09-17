@@ -17,8 +17,9 @@ set completeopt-=preview
 let g:ycm_collect_identifiers_from_tags_files           = 1
 set tags+=~/.vim/tags/stdcpp.tags
 
-nnoremap <Leader>tc :YcmCompleter GoToDeclaration<CR>
-nnoremap <Leader>td :YcmCompleter GoToDefinition<CR>
 nnoremap <Leader><Leader>y :YcmCompleter FixIt<CR>
 nnoremap <Leader>gd :YcmCompleter GetDoc<CR>
 nnoremap <Leader>gt :YcmCompleter GetType<CR>
+"nnoremap <Leader>tt :YcmCompleter GoTo<CR>
+"nnoremap <Leader>tc :YcmCompleter GoToDeclaration<CR>
+"nnoremap <Leader>td :YcmCompleter GoToDefinition<CR>
