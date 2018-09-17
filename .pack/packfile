@@ -35,7 +35,7 @@
   name: "andymass/vim-matchup"
   opt: false
 - 
-  build: ./install.sh
+  build: "git checkout next && ./install.sh"
   category: navigation
   local: false
   name: "autozimu/LanguageClient-neovim"
