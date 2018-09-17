@@ -1,6 +1,6 @@
 let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
 let g:gutentags_exclude_project_root = [expand('~/.vim')]
-let g:gutentags_cache_dir = expand('~/.vim/tags')
+let g:gutentags_cache_dir = expand('~/.cache/gutentags')
 
 let g:gutentags_modules = []
 if executable('ctags')
