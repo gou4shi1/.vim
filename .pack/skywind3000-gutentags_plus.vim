@@ -6,5 +6,5 @@ noremap <silent> <leader>gc :GscopeFind c <C-R><C-W><cr>
 noremap <silent> <leader>ge :GscopeFind e <C-R><C-W><cr>
 noremap <silent> <leader>gf :GscopeFind f <C-R>=expand("<cfile>")<cr><cr>
 noremap <silent> <leader>gi :GscopeFind i <C-R>=expand("<cfile>")<cr><cr>
-"noremap <silent> <leader>gd :GscopeFind d <C-R><C-W><cr>
+noremap <silent> <leader>gd :GscopeFind d <C-R><C-W><cr>
 noremap <silent> <leader>ga :GscopeFind a <C-R><C-W><cr>

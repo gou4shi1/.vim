@@ -35,6 +35,12 @@
   name: "andymass/vim-matchup"
   opt: false
 - 
+  build: ./install.sh
+  category: navigation
+  local: false
+  name: "autozimu/LanguageClient-neovim"
+  opt: false
+- 
   category: navigation
   local: false
   name: "derekwyatt/vim-fswitch"
