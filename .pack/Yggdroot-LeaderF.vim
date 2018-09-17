@@ -13,5 +13,5 @@ let g:Lf_StlColorscheme = 'powerline'
 let g:Lf_StlSeparator = { 'left': '', 'right': '' }
 
 let g:Lf_WorkingDirectoryMode = 'Ac'
-let g:Lf_CacheDirectory = expand('~/.vim/cache')
+let g:Lf_CacheDirectory = expand('~/.vim')
 let g:Lf_PreviewResult = { 'Function': 0 }
