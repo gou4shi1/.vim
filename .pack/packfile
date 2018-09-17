@@ -259,6 +259,16 @@
   name: skywind3000/asyncrun.vim
   opt: false
 - 
+  category: navigation
+  local: false
+  name: skywind3000/gutentags_plus
+  opt: false
+- 
+  category: navigation
+  local: false
+  name: "skywind3000/vim-preview"
+  opt: false
+- 
   category: edit
   local: false
   name: "terryma/vim-multiple-cursors"
