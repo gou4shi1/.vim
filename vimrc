@@ -106,6 +106,9 @@ augroup vimStartup
 
 augroup END
 
+" automatically creates foo/bar/ as-needed when `:w foo/bar/baz.txt:`
+autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p')
+
 " use python3 rather than python2
 " vim compiled with dynamic py2 and py3 support
 " but py2 and py3 can not be load at the same time
