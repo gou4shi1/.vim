@@ -330,7 +330,7 @@
   name: "vim-airline/vim-airline-themes"
   opt: false
 - 
-  category: navigation
+  category: buffer
   local: false
   name: "vim-ctrlspace/vim-ctrlspace"
   opt: false
