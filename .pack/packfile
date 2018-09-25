@@ -330,6 +330,11 @@
   name: "vim-airline/vim-airline-themes"
   opt: false
 - 
+  category: navigation
+  local: false
+  name: "vim-ctrlspace/vim-ctrlspace"
+  opt: false
+- 
   category: buffer
   local: false
   name: "vim-scripts/BufOnly.vim"
