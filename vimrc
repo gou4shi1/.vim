@@ -106,6 +106,9 @@ augroup vimStartup
 
 augroup END
 
+" automatically creates foo/bar/ as-needed when `:w foo/bar/baz.txt:`
+autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p')
+
 """""""""""""""""""""""""""""" Appearance
 " background
 set background=dark
