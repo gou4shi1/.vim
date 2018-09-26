@@ -43,6 +43,9 @@ https://goushi.me/vim
 * `plugin`  
   执行`pack generate` 命令（一般会被自动执行）将把 `.pack` 目录里的文件整合成该目录下的一个文件 `_pack.vim`  
   
+* `build.sh`  
+  部分编译时间较长的插件的编译脚本（跟 `pack install`）里的脚本分开以免卡住其他插件的安装  
+  
 * `after/ftplugin`  
   存放针对各文件类型的自定义配置  
   
@@ -58,9 +61,6 @@ https://goushi.me/vim
   
 * `session`  
   存放 session 文件  
-  
-* `indexer-tags`  
-  存放插件 [vim-indexer](https://github.com/alvan/vim-indexer) 自动生成的 ctags 文件  
   
 * `tags`  
   存放手动生成的 ctags 文件（比如 `stdc++.tags`）  
@@ -80,3 +80,10 @@ https://goushi.me/vim
   
 * `.ycm_extra_conf.py`  
   全局默认 YCM 配置文件  
+  
+* `.cquery`  
+  cquery 的配置文件  
+  
+* `globalrc`  
+  Gtags 的配置文件  
+
