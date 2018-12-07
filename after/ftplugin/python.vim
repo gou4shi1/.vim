@@ -1,16 +1,17 @@
 " set makeprg and errorformat
-" ~/.vim/compiler/python3.vim
-compiler python3
+" ~/.vim/compiler/ (issued)
+let s:py = "python3"
 
-" In fact, it will also run, but run with quickfix.
 func! PyCompile()
+    compiler pyunit
+    setlocal makeprg=python3\ %
     exe "w"
     exe "make"
 endfunc
 nnoremap <buffer> <F5> :call PyCompile()<CR>
 
 func! PyRun()
-    exe "term python3 %"
+    exe "term ".s:py." %"
 endfunc
 nnoremap <buffer> <F6> :call PyRun()<CR>
 
