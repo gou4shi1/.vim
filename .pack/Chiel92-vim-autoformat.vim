@@ -1,1 +1,1 @@
-noremap <F8> :Autoformat<CR>
+noremap <Leader>= :Autoformat<CR>
