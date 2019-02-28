@@ -2,6 +2,7 @@ let g:ale_linters = {
 \   'c': [],
 \   'cpp': [],
 \   'python': ['flake8'],
+\   'shell': ['shellcheck']
 \}
 
 " 快速跳转到前/后一个出错处
