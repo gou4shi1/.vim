@@ -41,6 +41,11 @@
   name: "autozimu/LanguageClient-neovim"
   opt: false
 - 
+  category: default
+  local: false
+  name: "dbeniamine/cheat.sh-vim"
+  opt: false
+- 
   category: navigation
   local: false
   name: "derekwyatt/vim-fswitch"
