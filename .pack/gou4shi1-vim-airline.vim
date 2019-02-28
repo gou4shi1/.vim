@@ -9,8 +9,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ycm#enabled = 1
 
 " CtrlSpace
-"let g:airline#extensions#ctrlspace#enabled = 1
-"let g:CtrlSpaceStatuslineFunction = "airline#extensions#ctrlspace#statusline()"
+let g:airline#extensions#ctrlspace#enabled = 1
+let g:CtrlSpaceStatuslineFunction = "airline#extensions#ctrlspace#statusline()"
 
 " extra-powerline-symbols
 "let g:airline_left_sep = "\uE0C0"
