@@ -46,11 +46,6 @@
   name: "dbeniamine/cheat.sh-vim"
   opt: false
 - 
-  category: navigation
-  local: false
-  name: "derekwyatt/vim-fswitch"
-  opt: false
-- 
   category: completion
   local: false
   name: "derekwyatt/vim-protodef"
