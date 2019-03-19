@@ -1,6 +1,5 @@
 " set makeprg and errorformat
 " ~/.vim/compiler/ (issued)
-let s:py = "python3"
 
 func! PyCompile()
     compiler pyunit
@@ -11,7 +10,7 @@ endfunc
 nnoremap <buffer> <F5> :call PyCompile()<CR>
 
 func! PyRun()
-    exe "term ".s:py." %"
+    exe "term ./%"
 endfunc
 nnoremap <buffer> <F6> :call PyRun()<CR>
 
