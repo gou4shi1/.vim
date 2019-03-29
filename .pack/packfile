@@ -9,11 +9,6 @@
   name: "Chiel92/vim-autoformat"
   opt: false
 - 
-  category: completion
-  local: false
-  name: Valloric/YouCompleteMe
-  opt: false
-- 
   category: git
   local: false
   name: "Xuyuanp/nerdtree-git-plugin"
@@ -39,6 +34,17 @@
   category: navigation
   local: false
   name: "autozimu/LanguageClient-neovim"
+  opt: false
+- 
+  category: highlight
+  local: false
+  name: davits/DyeVim
+  opt: false
+- 
+  build: "python3 install.py --clang-completer"
+  category: completion
+  local: false
+  name: davits/YouCompleteMe
   opt: false
 - 
   category: default
@@ -79,11 +85,6 @@
   category: default
   local: false
   name: "gou4shi1/YCM-Generator"
-  opt: false
-- 
-  category: highlight
-  local: false
-  name: gou4shi1/color_coded
   opt: false
 - 
   build: ./install.sh
