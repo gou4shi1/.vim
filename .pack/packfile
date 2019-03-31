@@ -174,11 +174,9 @@
   opt: false
 - 
   category: tex
-  for: 
-    - tex
   local: false
   name: lervag/vimtex
-  opt: true
+  opt: false
 - 
   category: edit
   local: false
