@@ -131,13 +131,13 @@ autocmd FileType lisp,scheme,art setlocal equalprg=scmindent.rkt
 autocmd FileType gitcommit setlocal nolist textwidth=72
 
 " c/cpp file header
-autocmd bufnewfile *.c,*.cpp,*.h,*.hpp so ~/.vim/file-headers/c_header.txt
-autocmd bufnewfile *.c,*.cpp,*.h,*.hpp exe "1," . 7 . "g/File Name :.*/s//File Name : " .expand("%")
-autocmd bufnewfile *.c,*.cpp,*.h,*.hpp exe "1," . 7 . "g/Creation Date :.*/s//Creation Date : " .strftime("%Y年%m月%d日")
-autocmd bufnewfile *.c,*.cpp,*.h,*.hpp exe "normal 3G$"
-
-autocmd Bufwritepre,filewritepre *.c,*.cpp,*.h,*.hpp silent! exe "1," . 7 . "g/Last Modified :.*/s/Last Modified :.*/Last Modified : " .strftime("%c")
-autocmd bufwritepost,filewritepost *.c,*.cpp,*.h,*.hpp exe "normal! \<c-o>"
+"autocmd bufnewfile *.c,*.cpp,*.h,*.hpp so ~/.vim/file-headers/c_header.txt
+"autocmd bufnewfile *.c,*.cpp,*.h,*.hpp exe "1," . 7 . "g/File Name :.*/s//File Name : " .expand("%")
+"autocmd bufnewfile *.c,*.cpp,*.h,*.hpp exe "1," . 7 . "g/Creation Date :.*/s//Creation Date : " .strftime("%Y年%m月%d日")
+"autocmd bufnewfile *.c,*.cpp,*.h,*.hpp exe "normal 3G$"
+"
+"autocmd Bufwritepre,filewritepre *.c,*.cpp,*.h,*.hpp silent! exe "1," . 7 . "g/Last Modified :.*/s/Last Modified :.*/Last Modified : " .strftime("%c")
+"autocmd bufwritepost,filewritepost *.c,*.cpp,*.h,*.hpp exe "normal! \<c-o>"
 
 """""""""""""""""""""""""""""" Builtin Plugins
 """""""""" Termdebug
