@@ -239,6 +239,13 @@
   name: "nathanaelkane/vim-indent-guides"
   opt: false
 - 
+  category: markdown
+  for: 
+    - markdown
+  local: false
+  name: "plasticboy/vim-markdown"
+  opt: true
+- 
   category: default
   local: false
   name: "romainl/vim-qf"
