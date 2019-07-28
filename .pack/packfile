@@ -394,3 +394,8 @@
   local: false
   name: wellle/targets.vim
   opt: false
+- 
+  category: completion
+  local: false
+  name: "ycm-core/YouCompleteMe"
+  opt: false
