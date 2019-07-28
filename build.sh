@@ -1,6 +1,6 @@
 echo 'YouCompleteMe'
 cd ~/.vim/pack/completion/start/YouCompleteMe
-python3 install.py --clang-completer
+python3 install.py --clang-completer --ts-completer
 
 echo 'color_coded'
 cd ~/.vim/pack/highlight/start/color_coded

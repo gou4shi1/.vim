@@ -61,6 +61,16 @@
   name: "easymotion/vim-easymotion"
   opt: false
 - 
+  category: completion
+  local: false
+  name: "epilande/vim-es2015-snippets"
+  opt: false
+- 
+  category: completion
+  local: false
+  name: "epilande/vim-react-snippets"
+  opt: false
+- 
   category: appearance
   local: false
   name: "flazz/vim-colorschemes"
@@ -226,6 +236,11 @@
   category: appearance
   local: false
   name: "nathanaelkane/vim-indent-guides"
+  opt: false
+- 
+  category: highlight
+  local: false
+  name: "neoclide/vim-jsx-improve"
   opt: false
 - 
   category: markdown
