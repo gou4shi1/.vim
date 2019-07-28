@@ -36,17 +36,6 @@
   name: "autozimu/LanguageClient-neovim"
   opt: false
 - 
-  category: highlight
-  local: false
-  name: davits/DyeVim
-  opt: false
-- 
-  build: "python3 install.py --clang-completer"
-  category: completion
-  local: false
-  name: davits/YouCompleteMe
-  opt: false
-- 
   category: default
   local: false
   name: "dbeniamine/cheat.sh-vim"
