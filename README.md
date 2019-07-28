@@ -34,7 +34,6 @@ https://goushi.me/vim
   * `packfile`  
     用 pack 安装插件时添加的参数都会保存在这个文件里  
     所以只要保留了这个文件，执行命令 `pack install` 就可以把所有插件装回来  
-    （**注意**：该插件有个 Bug：安装 已安装的插件 会把该插件在 `packfile` 中的相关信息删掉，见我发的 [issue](https://github.com/maralla/pack/issues/25)，暂时还没回复233）  
   * `xxx-yyy.vim`  
     通过 `pack config xxx/yyy` 命令添加的插件配置将保存在这个文件  
     （并且会自动调用 `pack generate` 命令，把全部 `xxx-yyy.vim` 文件整合成一个文件 `plugin/_pack.vim`）  
