@@ -30,12 +30,6 @@
   name: "andymass/vim-matchup"
   opt: false
 - 
-  build: "git checkout next && ./install.sh"
-  category: navigation
-  local: false
-  name: "autozimu/LanguageClient-neovim"
-  opt: false
-- 
   category: default
   local: false
   name: "dbeniamine/cheat.sh-vim"
