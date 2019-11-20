@@ -3,7 +3,8 @@ let g:ale_linters = {
 \   'cpp': [],
 \   'python': ['flake8'],
 \   'shell': ['shellcheck'],
-\   'javascript': ['eslint']
+\   'javascript': ['eslint'],
+\   'json': ['jsonlint']
 \}
 
 let g:ale_fixers = {
