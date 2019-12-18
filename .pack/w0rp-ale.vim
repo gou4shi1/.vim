@@ -4,7 +4,8 @@ let g:ale_linters = {
 \   'python': ['flake8'],
 \   'shell': ['shellcheck'],
 \   'javascript': ['eslint'],
-\   'json': ['jsonlint']
+\   'json': ['jsonlint'],
+\   'proto': ['protoc-gen-lint']
 \}
 
 let g:ale_fixers = {
