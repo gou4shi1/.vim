@@ -1,6 +1,6 @@
 " NERDTree
-let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose = 1
+let g:WebDevIconsNerdTreeBeforeGlyphPadding = ""
 let NERDTreeDirArrowExpandable = " "
 let NERDTreeDirArrowCollapsible = " "
 
