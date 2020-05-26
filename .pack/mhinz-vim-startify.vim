@@ -14,6 +14,7 @@ let g:startify_lists = [
   let g:startify_bookmarks    = [
         \{'v': '~/.vim/vimrc'},
         \{'z': '~/.zshrc'},
+        \{'i': '~/.i3/config'},
 \]
 
 " highlight
