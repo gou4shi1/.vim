@@ -4,7 +4,7 @@ let g:indent_guides_guide_size=1
 
 nmap <silent> <Leader><Leader>i <Plug>IndentGuidesToggle
 
-let indent_guides_auto_colors = 0
-hi IndentGuidesOdd  ctermbg=0
-hi IndentGuidesEven ctermbg=0
+"let indent_guides_auto_colors = 0
+"hi IndentGuidesOdd  ctermbg=0
+"hi IndentGuidesEven ctermbg=0
 "hi IndentGuidesEven ctermbg=23
