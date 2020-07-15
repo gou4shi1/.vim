@@ -1,8 +1,8 @@
 noremap <Leader>= :Autoformat<CR>
 
 " Bazel
-let b:formatdef_custom_bzl='"buildifier --type=build"'
-let b:formatters_bzl = ['custom_bzl']
+let g:formatdef_custom_bzl='"buildifier --type=build"'
+let g:formatters_bzl = ['custom_bzl']
 
 " Javascript
 let g:formatters_javascript = [
