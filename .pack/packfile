@@ -91,11 +91,6 @@
   name: gou4shi1/ultisnips
   opt: false
 - 
-  category: appearance
-  local: false
-  name: "gou4shi1/vim-airline"
-  opt: false
-- 
   category: git
   local: false
   name: gregsexton/gitv
@@ -135,6 +130,11 @@
   local: false
   name: "iamcco/mathjax-support-for-mkdp"
   opt: true
+- 
+  category: highlight
+  local: false
+  name: "jackguo380/vim-lsp-cxx-highlight"
+  opt: false
 - 
   category: edit
   local: false
@@ -235,6 +235,12 @@
   category: appearance
   local: false
   name: "nathanaelkane/vim-indent-guides"
+  opt: false
+- 
+  build: git checkout release
+  category: default
+  local: false
+  name: neoclide/coc.nvim
   opt: false
 - 
   category: highlight
@@ -346,6 +352,11 @@
 - 
   category: appearance
   local: false
+  name: "vim-airline/vim-airline"
+  opt: false
+- 
+  category: appearance
+  local: false
   name: "vim-airline/vim-airline-themes"
   opt: false
 - 
@@ -392,9 +403,4 @@
   category: edit
   local: false
   name: wellle/targets.vim
-  opt: false
-- 
-  category: completion
-  local: false
-  name: "ycm-core/YouCompleteMe"
   opt: false

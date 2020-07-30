@@ -156,6 +156,7 @@ let mapleader = "\<space>"
 set timeoutlen=500
 set ttimeout
 set ttimeoutlen=100
+set updatetime=1000
 
 " Quick select whole file
 nnoremap <leader>a ggVG
