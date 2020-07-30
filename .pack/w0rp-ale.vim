@@ -1,7 +1,7 @@
 let g:ale_linters = {
 \   'c': [],
 \   'cpp': [],
-\   'python': ['flake8'],
+\   'python': ['pylint'],
 \   'shell': ['shellcheck'],
 \   'javascript': ['eslint'],
 \   'json': ['jsonlint'],
