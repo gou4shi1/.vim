@@ -141,6 +141,11 @@
   name: "jiangmiao/auto-pairs"
   opt: false
 - 
+  category: git
+  local: false
+  name: "jparise/vim-phabricator"
+  opt: false
+- 
   category: appearance
   local: false
   name: "jszakmeister/vim-togglecursor"
@@ -154,11 +159,6 @@
   category: navigation
   local: false
   name: "justinmk/vim-dirvish"
-  opt: false
-- 
-  category: default
-  local: false
-  name: "kana/vim-submode"
   opt: false
 - 
   category: appearance
@@ -210,6 +210,11 @@
   category: edit
   local: false
   name: mbbill/undotree
+  opt: false
+- 
+  category: default
+  local: false
+  name: mboughaba/i3config.vim
   opt: false
 - 
   category: default
