@@ -191,3 +191,7 @@ nnoremap <Leader>nl a\\<CR>\indent <ESC>
 " cmake
 "nnoremap <Leader>cm :cd build<CR>:AsyncRun -save=1 -post='cd ..' cmake ..<CR>
 "nnoremap <Leader>ma :cd build<CR>:Async -save=1 -post='cd ..' make<CR>
+
+" temporarily fix https://github.com/vim/vim/issues/5617
+let &t_TI = ""
+let &t_TE = ""
