@@ -1,3 +1,5 @@
+let g:coc_global_extensions=['coc-clangd', 'coc-lists']
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
@@ -55,3 +57,8 @@ nmap <F2> <Plug>(coc-rename)
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 CocFormat :call CocAction('format')
+
+" coc-lists
+nnoremap <silent> <leader>l :CocList<CR>
+nnoremap <silent> <leader>lf :CocList files<CR>
+nnoremap <silent> <leader>lb :CocList buffers<CR>
