@@ -1,4 +1,5 @@
 {
+  "diagnostic.displayByAle": true,
   "clangd.semanticHighlighting": true,
   "clangd.compilationDatabasePath": null
 }
