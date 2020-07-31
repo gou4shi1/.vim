@@ -49,3 +49,9 @@ endfunction
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+" Symbol renaming.
+nmap <F2> <Plug>(coc-rename)
+
+" Add `:Format` command to format current buffer.
+command! -nargs=0 CocFormat :call CocAction('format')
