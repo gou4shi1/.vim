@@ -114,6 +114,9 @@ autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p'
 set background=dark
 "set background=light
 
+" require a vim compiled with `+termguicolors` and run on a true-color terminal
+set termguicolors
+
 " display auxiliary information
 set number
 "set laststatus=2
@@ -196,3 +199,12 @@ nnoremap <Leader>nl a\\<CR>\indent <ESC>
 " temporarily fix https://github.com/vim/vim/issues/5617
 let &t_TI = ""
 let &t_TE = ""
+
+" echo syntax highlight group of word under cursor
+"nmap <leader>sp :call <SID>SynStack()<CR>
+"function! <SID>SynStack()
+"  if !exists("*synstack")
+"    return
+"  endif
+"  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+"endfunc
