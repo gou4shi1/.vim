@@ -1,5 +1,6 @@
 {
-  "diagnostic.displayByAle": true,
+  "diagnostic.messageTarget": "echo",
+  "diagnostic.checkCurrentLine": true,
   "clangd.semanticHighlighting": true,
   "clangd.compilationDatabasePath": null
 }
