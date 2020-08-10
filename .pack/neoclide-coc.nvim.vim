@@ -23,13 +23,10 @@ else
   inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
 
-" Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-
-" Apply AutoFix to problem on the current line.
-nmap <leader>yy  <Plug>(coc-fix-current)
+nmap <silent> <C-k> <Plug>(coc-diagnostic-prev)
+nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
+nmap <silent> <C-y> <Plug>(coc-fix-current)
 
 " GoTo code navigation.
 nmap <silent> <leader>tt <Plug>(coc-definition)
@@ -54,9 +51,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
 nmap <F2> <Plug>(coc-rename)
-
-" Add `:Format` command to format current buffer.
-command! -nargs=0 CocFormat :call CocAction('format')
 
 " coc-lists
 nnoremap <silent> <leader>l :CocList<CR>

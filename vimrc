@@ -119,6 +119,7 @@ set termguicolors
 
 " display auxiliary information
 set number
+"set cmdheight=2
 "set laststatus=2
 "set ruler
 

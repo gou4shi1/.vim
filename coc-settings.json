@@ -1,6 +1,5 @@
 {
-  "diagnostic.messageTarget": "echo",
-  "diagnostic.checkCurrentLine": true,
+  "diagnostic.enableMessage": "jump",
   "clangd.semanticHighlighting": true,
   "clangd.compilationDatabasePath": null
 }
