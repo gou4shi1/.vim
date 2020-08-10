@@ -1,5 +1,6 @@
 {
   "diagnostic.enableMessage": "jump",
   "clangd.semanticHighlighting": true,
-  "clangd.compilationDatabasePath": null
+  "clangd.compilationDatabasePath": null,
+  "session.saveOnVimLeave": false
 }
