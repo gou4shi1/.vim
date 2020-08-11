@@ -2,5 +2,20 @@
   "diagnostic.enableMessage": "jump",
   "clangd.semanticHighlighting": true,
   "clangd.compilationDatabasePath": null,
-  "session.saveOnVimLeave": false
+  "session.saveOnVimLeave": false,
+  "python.formatting.provider": "yapf",
+  "python.analysis.extraPaths": ["bazel-gibraltar/external/all_pip3_deps", "bazel-gibraltar/external/all_pip3_deps/absl_py", "bazel-gibraltar/external/all_pip3_deps/protobuf"],
+  "python.analysis.stubPath": "",
+  "languageserver": {
+    "pylance": {
+      "enable": true,
+      "filetypes": ["python"],
+      "module": "/home/guangqing.chen/.vscode/extensions/ms-python.vscode-pylance-2020.8.0/server/server.bundle.js",
+      "initializationOptions": {},
+      "settings": {
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.diagnosticSeverityOverrides": {}
+      }
+    }
+  }
 }

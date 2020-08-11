@@ -1,5 +1,5 @@
-let g:coc_global_extensions=['coc-clangd', 'coc-lists', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components', 'coc-react-refactor']
-let g:my_filetypes_using_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
+let g:coc_global_extensions=['coc-clangd', 'coc-lists', 'coc-python', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components', 'coc-react-refactor']
+let g:my_filetypes_using_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'python', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

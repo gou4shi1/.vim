@@ -1,5 +1,4 @@
 let g:ale_linters = {
-\   'python': ['pylint'],
 \   'shell': ['shellcheck'],
 \   'json': ['jsonlint'],
 \   'proto': ['protoc-gen-lint']
