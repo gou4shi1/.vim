@@ -1,12 +1,14 @@
 let g:ale_linters = {
-\   'c': [],
-\   'cpp': [],
 \   'python': ['pylint'],
 \   'shell': ['shellcheck'],
-\   'javascript': ['eslint'],
 \   'json': ['jsonlint'],
 \   'proto': ['protoc-gen-lint']
 \}
+
+" Disable ale if using coc
+for ft in g:my_filetypes_using_coc
+  let g:ale_linters[ft] = []
+endfor
 
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
