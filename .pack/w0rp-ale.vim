@@ -1,6 +1,5 @@
 let g:ale_linters = {
 \   'shell': ['shellcheck'],
-\   'json': ['jsonlint'],
 \   'proto': ['protoc-gen-lint']
 \}
 
