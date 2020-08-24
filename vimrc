@@ -127,6 +127,10 @@ set number
 set cursorline
 set cursorcolumn
 
+
+" Always show the signcolumn, otherwise it would shift the text each time diagnostics appear/disappear.
+set signcolumn=yes
+
 """""""""""""""""""""""""""""" File Type
 " scheme indent
 autocmd FileType lisp,scheme,art setlocal equalprg=scmindent.rkt
