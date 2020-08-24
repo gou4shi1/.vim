@@ -91,6 +91,11 @@
   name: gou4shi1/ultisnips
   opt: false
 - 
+  category: linting
+  local: false
+  name: "gou4shi1/vim-buf"
+  opt: false
+- 
   category: git
   local: false
   name: gregsexton/gitv
