@@ -25,8 +25,8 @@ else
 endif
 
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> <C-k> <Plug>(coc-diagnostic-prev)
-nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
+"nmap <silent> <C-k> <Plug>(coc-diagnostic-prev)
+"nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
 nmap <silent> <C-y> <Plug>(coc-fix-current)
 
 " GoTo code navigation.
