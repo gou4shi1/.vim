@@ -4,7 +4,6 @@
   "clangd.compilationDatabasePath": null,
   "session.saveOnVimLeave": false,
   "python.formatting.provider": "yapf",
-  "python.analysis.extraPaths": ["bazel-gibraltar/external/all_pip3_deps", "bazel-gibraltar/external/all_pip3_deps/absl_py", "bazel-gibraltar/external/all_pip3_deps/protobuf"],
   "python.analysis.stubPath": "",
   "languageserver": {
     "pylance": {
