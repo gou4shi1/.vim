@@ -4,8 +4,7 @@ set nocompatible
 filetype plugin indent on
 syntax enable
 
-" file encoding
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set encoding=utf-8
 
 " enable mouse
 set mouse=a
@@ -127,9 +126,13 @@ set number
 set cursorline
 set cursorcolumn
 
-
 " Always show the signcolumn, otherwise it would shift the text each time diagnostics appear/disappear.
 set signcolumn=yes
+
+" Disable syntax highlight in vimdiff.
+if &diff
+    syntax off
+endif
 
 """""""""""""""""""""""""""""" File Type
 " scheme indent
@@ -154,7 +157,7 @@ let g:termdebug_wide = 1
 
 """""""""" Man
 " :Man command
-runtime ftplugin/man.vim
+"runtime ftplugin/man.vim
 
 """""""""""""""""""""""""""""" Keyboard Mapping
 " use <Space> as <Leader>
