@@ -9,7 +9,7 @@
     "pylance": {
       "enable": true,
       "filetypes": ["python"],
-      "module": "/home/guangqing.chen/.vscode/extensions/ms-python.vscode-pylance-2020.8.2/server/server.bundle.js",
+      "module": "~/.config/coc/extensions/vscode-pylance/dist/server.bundle.js",
       "initializationOptions": {},
       "settings": {
         "python.analysis.typeCheckingMode": "basic",
