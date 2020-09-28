@@ -91,6 +91,11 @@
   name: "gou4shi1/vim-buf"
   opt: false
 - 
+  category: appearance
+  local: false
+  name: "gou4shi1/vim-indent-guides"
+  opt: false
+- 
   category: git
   local: false
   name: gregsexton/gitv
@@ -230,11 +235,6 @@
   category: buffer
   local: false
   name: mtth/scratch.vim
-  opt: false
-- 
-  category: appearance
-  local: false
-  name: "nathanaelkane/vim-indent-guides"
   opt: false
 - 
   build: git checkout release
