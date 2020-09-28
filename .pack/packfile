@@ -181,11 +181,6 @@
   name: lilydjwg/fcitx.vim
   opt: false
 - 
-  category: navigation
-  local: false
-  name: "ludovicchabant/vim-gutentags"
-  opt: false
-- 
   category: highlight
   local: false
   name: luochen1990/rainbow
@@ -194,11 +189,6 @@
   category: edit
   local: false
   name: "machakann/vim-sandwich"
-  opt: false
-- 
-  category: navigation
-  local: false
-  name: majutsushi/tagbar
   opt: false
 - 
   category: git
@@ -376,11 +366,6 @@
   category: edit
   local: false
   name: "vim-scripts/DrawIt"
-  opt: false
-- 
-  category: highlight
-  local: false
-  name: "vim-scripts/SyntaxRange"
   opt: false
 - 
   category: default
