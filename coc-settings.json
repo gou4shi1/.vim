@@ -5,6 +5,7 @@
   "session.saveOnVimLeave": false,
   "python.formatting.provider": "yapf",
   "python.analysis.stubPath": "",
+  "python.analysis.extraPaths": ["/home/guangqing.chen/.local/lib/python3.5/site-packages"],
   "languageserver": {
     "pylance": {
       "enable": true,
