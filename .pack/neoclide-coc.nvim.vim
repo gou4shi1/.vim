@@ -1,4 +1,4 @@
-let g:coc_global_extensions=['coc-clangd', 'coc-lists', 'coc-json', 'coc-sh', 'coc-python', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components', 'coc-react-refactor']
+let g:coc_global_extensions=['coc-lists', 'coc-fzf-preview', 'coc-clangd', 'coc-json', 'coc-sh', 'coc-python', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components', 'coc-react-refactor']
 let g:my_filetypes_using_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'json', 'python', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
 
 " Use tab for trigger completion with characters ahead and navigate.
@@ -25,6 +25,7 @@ else
 endif
 
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
+" config in w0rp/ale
 "nmap <silent> <C-k> <Plug>(coc-diagnostic-prev)
 "nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
 nmap <silent> <C-y> <Plug>(coc-fix-current)
@@ -54,6 +55,7 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <F2> <Plug>(coc-rename)
 
 " coc-lists
-nnoremap <silent> <leader>l :CocList<CR>
-nnoremap <silent> <leader>lf :CocList files<CR>
-nnoremap <silent> <leader>lb :CocList buffers<CR>
+" config in antoinemadec/coc-fzf
+"nnoremap <silent> <leader>l :CocList<CR>
+"nnoremap <silent> <leader>lf :CocList files<CR>
+"nnoremap <silent> <leader>lb :CocList buffers<CR>

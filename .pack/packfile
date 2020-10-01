@@ -30,6 +30,11 @@
   name: "andymass/vim-matchup"
   opt: false
 - 
+  category: navigation
+  local: false
+  name: "antoinemadec/coc-fzf"
+  opt: false
+- 
   category: default
   local: false
   name: "dbeniamine/cheat.sh-vim"
@@ -154,6 +159,16 @@
   category: appearance
   local: false
   name: "jszakmeister/vim-togglecursor"
+  opt: false
+- 
+  category: navigation
+  local: false
+  name: junegunn/fzf
+  opt: false
+- 
+  category: navigation
+  local: false
+  name: junegunn/fzf.vim
   opt: false
 - 
   category: formatting
