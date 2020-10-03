@@ -146,6 +146,11 @@
   name: "jackguo380/vim-lsp-cxx-highlight"
   opt: false
 - 
+  category: navigation
+  local: false
+  name: "jesseleite/vim-agriculture"
+  opt: false
+- 
   category: edit
   local: false
   name: "jiangmiao/auto-pairs"
