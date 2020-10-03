@@ -1,6 +1,6 @@
 # 安装教程
 
-https://goushi.me/terminal-shell-vim
+https://goushi.me/gde-v3
 
 # 使用教程
 
@@ -41,10 +41,10 @@ https://goushi.me/vim
     （并且会自动调用 `pack generate` 命令，把全部 `xxx-yyy.vim` 文件整合成一个文件 `plugin/_pack.vim`）
 
 - `plugin`  
-  执行`pack generate` 命令（一般会被自动执行）将把 `.pack` 目录里的文件整合成该目录下的一个文件 `_pack.vim`
+  执行`pack generate` 命令（一般会被自动执行）将把 `.pack` 目录里的各插件配置文件合并成 `plugin` 下的 `_pack.vim`
 
-- `build.sh`  
-  部分编译时间较长的插件的编译脚本（跟 `pack install`）里的脚本分开以免卡住其他插件的安装
+- `install.sh`  
+  一键安装脚本（不包括 `rg` 等安装过程跟系统相关性较大的前置依赖)
 
 - `after/ftplugin`  
   存放针对各文件类型的自定义配置
@@ -54,7 +54,7 @@ https://goushi.me/vim
   则可在 Vim 里执行 `:compiler python3` 来设置 `makeprg` `errorformat` 等
 
 - `swap`  
-  统一存放所有交换文件
+  统一存放所有交换文件，避免污染项目目录
 
 - `spell`  
   存放 拼写检查 添加的字典文件
@@ -76,13 +76,7 @@ https://goushi.me/vim
   (可持久指退出后再进来依然保持)
 
 - `yankring_history_v2.txt`  
-   [YankRing](https://github.com/vim-scripts/YankRing.vim) 插件可持久化粘贴版
-
-- `.ycm_extra_conf.py`  
-  全局默认 YCM 配置文件
-
-- `.cquery`  
-  cquery 的配置文件
+   [YankRing](https://github.com/vim-scripts/YankRing.vim) 插件可持久化粘贴板
 
 - `globalrc`  
   Gtags 的配置文件
