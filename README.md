@@ -80,3 +80,23 @@ https://goushi.me/vim
 
 - `globalrc`  
   Gtags 的配置文件
+
+# Plugins
+
+- [junegunn/fzf](https://github.com/junegunn/fzf)  
+  As a vim plugin, this repo provide some core integration functions: `fzf#run` and `fzf#wrap`.
+
+- [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)  
+  This repo is a bundle of fzf-based [commands and mappings](https://github.com/junegunn/fzf.vim#commands): `Files`, `GFiles`, `Buffers`, `Rg` and `Maps`.
+
+- [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)  
+  Seems only the [Interactive git integration](https://github.com/yuki-ycino/fzf-preview.vim#interactive-git-integration-integrate-with-fugitive-or-gina) is useful.
+
+- [antoinemadec/coc-fzf](https://github.com/antoinemadec/coc-fzf)  
+  This plugin uses fzf in place of Coc's built-in CocList sources as well as Coc's jumps (definition, reference etc).  
+  `CocFzfList` is a drop-in replacement of `CocList`, you can also `add_list_source` for other useful commands.  
+  Mappings in config: `<leader>ll/ld/lb/lf/la/lg`
+
+- [jesseleite/vim-agriculture](https://github.com/jesseleite/vim-agriculture)  
+  `RgRaw` provide the ability to pass command line options to `rg` (compared with `Rg`).  
+  `<leader>rg` to grep visual selection (in visual mode) or word under cursor (in normal mode).
