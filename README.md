@@ -100,3 +100,6 @@ https://goushi.me/vim
 - [jesseleite/vim-agriculture](https://github.com/jesseleite/vim-agriculture)  
   `RgRaw` provide the ability to pass command line options to `rg` (compared with `Rg`).  
   `<leader>rg` to grep visual selection (in visual mode) or word under cursor (in normal mode).
+
+- [dkprice/vim-easygrep](https://github.com/dkprice/vim-easygrep)  
+  `<leader>vv/vr` to grep/replace in the open buffers (`<leader>vo` to change options).
