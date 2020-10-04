@@ -196,9 +196,14 @@ cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
 " toggle spell checking
 nnoremap <Leader><Leader>s :setlocal spell! spelllang=en,cjk<CR>
 
-" latex
-nnoremap <Leader>la a[latex][/latex]<ESC>7hi
-nnoremap <Leader>nl a\\<CR>\indent <ESC>
+" echo syntax highlight group of word under cursor
+nmap <leader>sh :call <SID>SynStack()<CR>
+function! s:SynStack()
+  if !exists("*synstack")
+    return
+  endif
+  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
 
 " cmake
 "nnoremap <Leader>cm :cd build<CR>:AsyncRun -save=1 -post='cd ..' cmake ..<CR>
@@ -207,12 +212,3 @@ nnoremap <Leader>nl a\\<CR>\indent <ESC>
 " temporarily fix https://github.com/vim/vim/issues/5617
 let &t_TI = ""
 let &t_TE = ""
-
-" echo syntax highlight group of word under cursor
-"nmap <leader>sp :call <SID>SynStack()<CR>
-"function! <SID>SynStack()
-"  if !exists("*synstack")
-"    return
-"  endif
-"  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-"endfunc
