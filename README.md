@@ -103,3 +103,10 @@ https://goushi.me/vim
 
 - [dkprice/vim-easygrep](https://github.com/dkprice/vim-easygrep)  
   `<leader>vv/vr` to grep/replace in the open buffers (`<leader>vo` to change options).
+
+- [gou4shi1/vim-gutentags](https://github.com/gou4shi1/vim-gutentags)  
+  Automatically generate/update gtags database for the current project.
+
+- [skywind3000/gutentags_plus](https://github.com/skywind3000/gutentags_plus)  
+  Automatically connect gtags database for the current project.  
+  Mappings in config: `<leader>gs/gg/gd/gc/gt/ge/gf/gi/ga`

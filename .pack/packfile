@@ -96,6 +96,11 @@
   name: "gou4shi1/vim-buf"
   opt: false
 - 
+  category: navigation
+  local: false
+  name: "gou4shi1/vim-gutentags"
+  opt: false
+- 
   category: appearance
   local: false
   name: "gou4shi1/vim-indent-guides"
