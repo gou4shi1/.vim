@@ -263,6 +263,11 @@
   name: "neoclide/vim-jsx-improve"
   opt: false
 - 
+  category: appearance
+  local: false
+  name: "phongnh/vim-leaderf-solarized-theme"
+  opt: false
+- 
   category: markdown
   local: false
   name: "plasticboy/vim-markdown"

@@ -1,2 +1,2 @@
-vmap <Leader>rg <Plug>RgRawVisualSelection
-nmap <Leader>rg <Plug>RgRawWordUnderCursor
+vmap <C-f>r <Plug>RgRawVisualSelection
+nmap <C-f>r <Plug>RgRawWordUnderCursor
