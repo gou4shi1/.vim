@@ -4,3 +4,5 @@ viminfo
 yankring_history_v2.txt
 .netrwhist
 .LfCache
+UltiSnips/all.snippets
+.pack/jparise-vim-phabricator.vim
