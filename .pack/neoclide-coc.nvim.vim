@@ -59,3 +59,6 @@ nmap <F2> <Plug>(coc-rename)
 "nnoremap <silent> <leader>l :CocList<CR>
 "nnoremap <silent> <leader>lf :CocList files<CR>
 "nnoremap <silent> <leader>lb :CocList buffers<CR>
+
+" coc-fzf-preview
+let g:fzf_preview_preview_key_bindings = 'ctrl-d:preview-half-page-down,ctrl-u:preview-half-page-up,?:toggle-preview'

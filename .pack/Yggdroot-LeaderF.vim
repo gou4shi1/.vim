@@ -17,3 +17,4 @@ let g:Lf_PreviewResult = {
 " Config keymaps in coc-fzf
 let g:Lf_ShortcutF = ''
 let g:Lf_ShortcutB = ''
+let g:Lf_CommandMap = {'<C-UP>': ['<C-u>'], '<C-DOWN>': ['<C-d>']}
