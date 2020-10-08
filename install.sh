@@ -2,24 +2,21 @@
 
 set -e
 
-# Create coc data dir.
+echo "Create coc data dir."
 mkdir -p ~/.config/coc
 
-# Install vim plugins via pack.
+echo "Clear ~/.vim/pack (backup as ~/.vim/pack.bak)."
+rm -rf ~/.vim/pack.bak
+mv ~/.vim/pack ~/.vim/pack.bak
+mkdir ~/.vim/pack
+echo "Install vim plugins via pack."
 pack install
-reset # to recover strange terminal output format
+reset # to recover the strange terminal output format
 echo 'Installed vim plugins:'
-pack
+pack list
 echo
 
-#echo 'YouCompleteMe'
-#cd ~/.vim/pack/completion/start/YouCompleteMe
-#python3 install.py --clangd-completer --ts-completer
-
-# Create global yapf config.
-cp ~/.vim/.style.yapf ~/.style.yapf
-
-# Download vscode-pylance
+echo "Download vscode-pylance."
 rm -rf /tmp/download-vscode-pylance
 mkdir /tmp/download-vscode-pylance
 cd /tmp/download-vscode-pylance
