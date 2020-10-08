@@ -14,12 +14,6 @@
   name: "Xuyuanp/nerdtree-git-plugin"
   opt: true
 - 
-  build: ./install.sh
-  category: navigation
-  local: false
-  name: Yggdroot/LeaderF
-  opt: false
-- 
   category: git
   local: false
   name: "airblade/vim-gitgutter"
@@ -78,6 +72,12 @@
   category: edit
   local: false
   name: gcmt/wildfire.vim
+  opt: false
+- 
+  build: ./install.sh
+  category: navigation
+  local: false
+  name: gou4shi1/LeaderF
   opt: false
 - 
   build: ./install.sh
