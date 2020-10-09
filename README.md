@@ -114,3 +114,7 @@ https://goushi.me/vim
 - [Yggdroot/LeaderF](https://github.com/Yggdroot/LeaderF)  
   Another fuzzy finder that similar to fzf.  
   Some subcommands that better than fzf are integrated into `CocFzfList`.
+
+- [liuchengxu/vista.vim](https://github.com/liuchengxu/vista.vim)  
+  Replacement of [tagbar](https://github.com/majutsushi/tagbar) that also support LSP.  
+  `<Leader><Leader>t` to toggle the sidebar (keymaps in sidebar: `p`, `q` and `/`).

@@ -206,6 +206,11 @@
   name: lilydjwg/fcitx.vim
   opt: false
 - 
+  category: navigation
+  local: false
+  name: liuchengxu/vista.vim
+  opt: false
+- 
   category: highlight
   local: false
   name: luochen1990/rainbow

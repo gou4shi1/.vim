@@ -8,6 +8,7 @@ call coc_fzf#common#add_list_source('functions', 'functions in current buffer', 
 call coc_fzf#common#add_list_source('quickfix', 'quickfix list', 'Leaderf quickfix')                              " replace with LeaderF's quickfix
 call coc_fzf#common#add_list_source('locationlist', 'location list', 'Leaderf loclist')                           " replace with LeaderF's loclist
 call coc_fzf#common#add_list_source('helptags', 'helptags of vim', 'Leaderf help')                                " replace with LeaderF's help
+call coc_fzf#common#add_list_source('tags', 'tags from vista', 'Vista finder')                                    " replace with vista's finder
 call coc_fzf#common#add_list_source('cmdhistory', 'history of vim commands', 'History:')                          " replace with fzf's History:
 call coc_fzf#common#add_list_source('searchhistory', 'search history', 'History/')                                " replace with fzf's History/
 call coc_fzf#common#add_list_source('vimcommands', 'vim command list', 'Commands')                                " replace with fzf's Commands
@@ -24,6 +25,7 @@ nnoremap <silent> <C-f>l :CocFzfList lines<CR>
 nnoremap <silent> <C-f>q :CocFzfList quickfix<CR>
 nnoremap <silent> <C-f>m :CocFzfList mru<CR>
 nnoremap <silent> <C-f>h :CocFzfList helptags<CR>
+nnoremap <silent> <C-f>t :CocFzfList tags<CR>
 nnoremap <silent> <C-f>: :CocFzfList cmdhistory<CR>
 nnoremap <silent> <C-f>/ :CocFzfList searchhistory<CR>
 nnoremap <silent> <C-f>c :CocFzfList vimcommands<CR>
