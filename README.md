@@ -83,11 +83,13 @@ https://goushi.me/vim
 
 # Plugins
 
+## Navigation
+
 - [junegunn/fzf](https://github.com/junegunn/fzf)  
   As a vim plugin, this repo provide some core integration functions: `fzf#run` and `fzf#wrap`.
 
 - [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)  
-  This repo is a bundle of fzf-based [commands and mappings](https://github.com/junegunn/fzf.vim#commands).
+  This repo is a bundle of fzf-based [commands and mappings](https://github.com/junegunn/fzf.vim#commands), such as `Rg`.
 
 - [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)  
   Seems only the [Interactive Git Integration](https://github.com/yuki-ycino/fzf-preview.vim#interactive-git-integration-integrate-with-fugitive-or-gina) is useful.
@@ -118,3 +120,11 @@ https://goushi.me/vim
 - [liuchengxu/vista.vim](https://github.com/liuchengxu/vista.vim)  
   Replacement of [tagbar](https://github.com/majutsushi/tagbar) that also support LSP.  
   `<Leader><Leader>t` to toggle the sidebar (keymaps in sidebar: `p`, `q` and `/`).
+
+## Edit
+
+- [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  
+  Insert/Delete in pair.  
+  Insert new indented line after `<CR>`.  
+  Insert spaces before closing characters.  
+  Only some filetype-based characters are enabled in config.
