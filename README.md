@@ -128,3 +128,8 @@ https://goushi.me/vim
   Insert new indented line after `<CR>`.  
   Insert spaces before closing characters.  
   Only some filetype-based characters are enabled in config.
+
+## Buffer
+
+- [mtth/scratch.vim](https://github.com/mtth/scratch.vim)  
+  `<Leader>sc/sC` to open a unobtrusive scratch window with/without previous content.
