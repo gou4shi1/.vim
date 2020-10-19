@@ -358,11 +358,6 @@
   name: "tpope/vim-rsi"
   opt: false
 - 
-  category: default
-  local: false
-  name: "tpope/vim-sleuth"
-  opt: true
-- 
   category: edit
   local: false
   name: "tpope/vim-speeddating"
