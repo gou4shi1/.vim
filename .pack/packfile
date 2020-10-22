@@ -273,11 +273,6 @@
   name: "phongnh/vim-leaderf-solarized-theme"
   opt: false
 - 
-  category: markdown
-  local: false
-  name: "plasticboy/vim-markdown"
-  opt: false
-- 
   category: default
   local: false
   name: "romainl/vim-qf"
