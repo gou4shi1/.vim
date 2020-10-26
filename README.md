@@ -90,6 +90,10 @@ https://goushi.me/vim
   Provides syntax and indentation support (no other features) for [almost all commonly used languages](https://github.com/sheerun/vim-polyglot#language-packs).  
   Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).
 
+- [kana/vim-submode](https://github.com/kana/vim-submode)  
+  Create your own submode keymaps.  
+  For example, `<C-w><<<` to resize split window quickly.
+
 ## Navigation
 
 - [junegunn/fzf](https://github.com/junegunn/fzf)  

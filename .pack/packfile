@@ -191,6 +191,11 @@
   name: "justinmk/vim-dirvish"
   opt: false
 - 
+  category: default
+  local: false
+  name: "kana/vim-submode"
+  opt: false
+- 
   category: appearance
   local: false
   name: "kshenoy/vim-signature"
