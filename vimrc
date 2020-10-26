@@ -93,14 +93,11 @@ set undofile
 set undodir=~/.vim/undo-history
 set directory=~/.vim/swap
 set viminfo+=n~/.vim/viminfo
-
-
-" Always save upper case variables to viminfo file.
-"set viminfo^=!
-
-" Don't save options in sessions and views
-"set sessionoptions-=options
-"set viewoptions-=options
+" Always save uppercase variables to viminfo file.
+set viminfo^=!
+" Don't save options in sessions and views.
+set sessionoptions-=options
+set viewoptions-=options
 
 " jump to last cursor position
 augroup vimStartup
@@ -116,7 +113,7 @@ augroup vimStartup
 
 augroup END
 
-" automatically creates foo/bar/ as-needed when `:w foo/bar/baz.txt:`
+" Automatically creates `foo/bar/` as needed when `:w foo/bar/baz.txt`
 autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p')
 
 """""""""""""""""""""""""""""" Appearance
