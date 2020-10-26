@@ -88,8 +88,7 @@ https://goushi.me/vim
 - [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)  
   A bundle of hundreds of vim plugins:  
   Provides syntax and indentation support (no other features) for [almost all commonly used languages](https://github.com/sheerun/vim-polyglot#language-packs).  
-  Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).  
-  Includes some defaults from [vim-sensible](https://github.com/tpope/vim-sensible).
+  Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).
 
 ## Navigation
 

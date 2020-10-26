@@ -34,8 +34,8 @@ set incsearch
 set ignorecase
 set smartcase
 
-" keep 200 lines of command line history
-set history=200
+" increase lines of command line history
+set history=500
 
 " Show a few lines of context around the cursor.
 " Note that this makes the text scroll
@@ -85,11 +85,22 @@ set nolangremap
 " Patterns to ignore for expand(), ctrlp, etc.
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.swp,*~,._*,*.pyc,*__pycache__*,*.egg-info
 
+" Search upwards for tags file instead only locally
+"setglobal tags-=./tags tags-=./tags; tags^=./tags;
+
 " recovery
 set undofile
 set undodir=~/.vim/undo-history
 set directory=~/.vim/swap
 set viminfo+=n~/.vim/viminfo
+
+
+" Always save upper case variables to viminfo file.
+"set viminfo^=!
+
+" Don't save options in sessions and views
+"set sessionoptions-=options
+"set viewoptions-=options
 
 " jump to last cursor position
 augroup vimStartup
@@ -129,17 +140,21 @@ set cursorcolumn
 " Always show the signcolumn, otherwise it would shift the text each time diagnostics appear/disappear.
 set signcolumn=yes
 
+" Set default whitespace characters when using `:set list`
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+
 " Disable syntax highlight in vimdiff.
 if &diff
     syntax off
+    let g:syntax_on = 0
 endif
 
 """""""""""""""""""""""""""""" File Type
 " scheme indent
-autocmd FileType lisp,scheme,art setlocal equalprg=scmindent.rkt
+"autocmd FileType lisp,scheme,art setlocal equalprg=scmindent.rkt
 
 " git commit messages
-autocmd FileType gitcommit setlocal nolist textwidth=72
+"autocmd FileType gitcommit setlocal nolist textwidth=72
 
 " c/cpp file header
 "autocmd bufnewfile *.c,*.cpp,*.h,*.hpp so ~/.vim/file-headers/c_header.txt
@@ -179,9 +194,10 @@ nnoremap <Leader>p "+p
 " no highlight
 nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 
-" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
+" CTRL-U/W in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
+inoremap <C-W> <C-G>u<C-W>
 
 " see the difference between the current buffer and
 " the file it was loaded from, thus the changes you made.
