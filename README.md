@@ -142,5 +142,12 @@ https://goushi.me/vim
 
 ## Buffer
 
+- [moll/vim-bbye](https://github.com/moll/vim-bbye)  
+  `<Leader>q` to delete the current buffer without closing your windows or messing up your layout.
+
+- [vim-scripts/BufOnly.vim](https://github.com/vim-scripts/BufOnly.vim)  
+  `:Bonly` to delete all buffers but the current one.
+
 - [mtth/scratch.vim](https://github.com/mtth/scratch.vim)  
-  `<Leader>sc/sC` to open a unobtrusive scratch window with/without previous content.
+  `<Leader>sc/sC` to open a unobtrusive scratch window with/without previous content.  
+  It will also copy the selected content to the scratch window if pressed in visual mode.
