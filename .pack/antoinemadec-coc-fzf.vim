@@ -22,6 +22,7 @@ nnoremap <silent> <C-f>p :CocFzfList pfiles<CR>
 nnoremap <silent> <C-f>f :CocFzfList files<CR>
 nnoremap <silent> <C-f>b :CocFzfList buffers<CR>
 nnoremap <silent> <C-f>l :CocFzfList lines<CR>
+nnoremap <silent> <C-f>u :CocFzfList functions<CR>
 nnoremap <silent> <C-f>q :CocFzfList quickfix<CR>
 nnoremap <silent> <C-f>m :CocFzfList mru<CR>
 nnoremap <silent> <C-f>h :CocFzfList helptags<CR>
