@@ -151,3 +151,15 @@ https://goushi.me/vim
 - [mtth/scratch.vim](https://github.com/mtth/scratch.vim)  
   `<Leader>sc/sC` to open a unobtrusive scratch window with/without previous content.  
   It will also copy the selected content to the scratch window if pressed in visual mode.
+
+## Run
+
+- [kassio/neoterm](https://github.com/kassio/neoterm)  
+  `:T cmd` is a replacement of `:term cmd` that reuse the terminal already exists.  
+  `<F6>` to run the current c/cpp/python file in neoterm.  
+  TODO: Add keymaps for [REPL](https://github.com/kassio/neoterm#repl).
+
+- [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm)  
+  `<F8>` to open a new terminal in popup window.  
+  `<F9>/<S-F9>` to switch to the next/prev terminal.  
+  `<F10>` to toggle the popup window.
