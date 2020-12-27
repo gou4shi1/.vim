@@ -5,7 +5,8 @@ endfunc
 nnoremap <buffer> <F5> :call CppCompile()<CR>
 
 func! CppRun()
-    exe "term ./%<"
+    let filename = expand("%<")
+    exe "T ./" . filename
 endfunc
 nnoremap <buffer> <F6> :call CppRun()<CR>
 

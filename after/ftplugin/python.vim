@@ -10,7 +10,7 @@ endfunc
 nnoremap <buffer> <F5> :call PyCompile()<CR>
 
 func! PyRun()
-    exe "term ./%"
+    exe "TREPLSendFile"
 endfunc
 nnoremap <buffer> <F6> :call PyRun()<CR>
 

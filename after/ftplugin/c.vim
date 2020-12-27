@@ -5,7 +5,8 @@ endfunc
 nnoremap <buffer> <F5> :call CCompile()<CR>
 
 func! CRun()
-    exe "term ./%<"
+    let filename = expand("%<")
+    exe "T ./" . filename
 endfunc
 nnoremap <buffer> <F6> :call CRun()<CR>
 

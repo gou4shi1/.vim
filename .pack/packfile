@@ -196,6 +196,11 @@
   name: "kana/vim-submode"
   opt: false
 - 
+  category: run
+  local: false
+  name: kassio/neoterm
+  opt: false
+- 
   category: appearance
   local: false
   name: "kshenoy/vim-signature"
