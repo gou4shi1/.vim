@@ -413,6 +413,11 @@
   name: "vim-scripts/ingo-library"
   opt: false
 - 
+  category: run
+  local: false
+  name: "voldikss/vim-floaterm"
+  opt: false
+- 
   category: linting
   local: false
   name: w0rp/ale
