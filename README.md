@@ -154,12 +154,16 @@ https://goushi.me/vim
 
 ## Run
 
-- [kassio/neoterm](https://github.com/kassio/neoterm)  
-  `:T cmd` is a replacement of `:term cmd` that reuse the terminal already exists.  
-  `<F6>` to run the current c/cpp/python file in neoterm.  
-  TODO: Add keymaps for [REPL](https://github.com/kassio/neoterm#repl).
-
 - [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm)  
   `<F8>` to open a new terminal in popup window.  
   `<F9>/<S-F9>` to switch to the next/prev terminal.  
   `<F10>` to toggle the popup window.
+
+- [kassio/neoterm](https://github.com/kassio/neoterm)  
+  `:T cmd` is a replacement of `:term cmd` that reuse the terminal already exists.  
+  `<F6>` to run the current c/cpp/python file in neoterm (config in `after/ftplugin`).  
+  TODO: Add keymaps for [REPL](https://github.com/kassio/neoterm#repl).
+
+- [thinca/vim-quickrun](https://github.com/thinca/vim-quickrun)  
+  `<F6>` to execute the whole/part of editing file quickly.  
+  It supports many filetypes by default, so it's a good supplement to `after/ftplugin`.

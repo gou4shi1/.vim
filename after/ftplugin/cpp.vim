@@ -1,5 +1,5 @@
 func! CppCompile()
-    let FLAG = "-D LOCAL -std=c++14 -Wall -g"
+    let FLAG = "-D LOCAL -std=c++17 -Wall -g"
     exe "AsyncRun g++ " . FLAG . " % -o %<"
 endfunc
 nnoremap <buffer> <F5> :call CppCompile()<CR>
