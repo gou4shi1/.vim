@@ -242,11 +242,6 @@
   name: "mattn/webapi-vim"
   opt: false
 - 
-  category: edit
-  local: false
-  name: mbbill/undotree
-  opt: false
-- 
   category: default
   local: false
   name: mboughaba/i3config.vim
@@ -306,6 +301,11 @@
   category: default
   local: false
   name: "sheerun/vim-polyglot"
+  opt: false
+- 
+  category: edit
+  local: false
+  name: "simnalamburt/vim-mundo"
   opt: false
 - 
   category: run
