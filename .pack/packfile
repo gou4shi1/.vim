@@ -323,6 +323,11 @@
   name: "skywind3000/vim-preview"
   opt: false
 - 
+  category: appearance
+  local: false
+  name: "skywind3000/vim-quickui"
+  opt: false
+- 
   category: edit
   local: false
   name: "terryma/vim-multiple-cursors"
