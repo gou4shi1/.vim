@@ -136,6 +136,16 @@ https://goushi.me/vim
   Incrementally highlights all matches, but this feature is already provided by [vim 8.0.1238](https://medium.com/@haya14busa/incsearch-vim-is-dead-long-live-incsearch-2b7070d55250).  
   So only one keymap is left: `g/` to search without cursor move.
 
+- [haya14busa/incsearch-fuzzy.vim](https://github.com/haya14busa/incsearch-fuzzy.vim)  
+  Incremantal fuzzy search extension for incsearch.vim.  
+  `z/`/`z?`/`zg/` to do fuzzy search.  
+  `zz/`/`zz?`/`zzg/` to do fuzzy search with the spell feature of vim.
+
+- [haya14busa/incsearch-easymotion.vim](https://github.com/haya14busa/incsearch-easymotion.vim)  
+  Integration between incsearch.vim and vim-easymotion.  
+  `<Leader>/`/`<Leader>?`/`<Leader>g/` to search with easymotion.  
+  `<Leader>z/` to do fuzzy search with easymotion.
+
 ## Edit
 
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  

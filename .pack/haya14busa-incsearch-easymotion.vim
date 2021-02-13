@@ -13,4 +13,4 @@ function! s:config_easyfuzzymotion(...) abort
   \   'is_stay': 1
   \ }), get(a:, 1, {}))
 endfunction
-noremap <silent><expr> <leader>zz/ incsearch#go(<SID>config_easyfuzzymotion())
+noremap <silent><expr> <leader>z/ incsearch#go(<SID>config_easyfuzzymotion())
