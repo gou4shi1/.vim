@@ -132,6 +132,10 @@ https://goushi.me/vim
   Replacement of [tagbar](https://github.com/majutsushi/tagbar) that also support LSP.  
   `<Leader><Leader>t` to toggle the sidebar (keymaps in sidebar: `p`, `q` and `/`).
 
+- [haya14busa/incsearch.vim](https://github.com/haya14busa/incsearch.vim)  
+  Incrementally highlights all matches, but this feature is already provided by [vim 8.0.1238](https://medium.com/@haya14busa/incsearch-vim-is-dead-long-live-incsearch-2b7070d55250).  
+  So only one keymap is left: `g/` to search without cursor move.
+
 ## Edit
 
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  
