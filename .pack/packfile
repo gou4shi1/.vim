@@ -127,6 +127,16 @@
   name: haya14busa/incsearch.vim
   opt: false
 - 
+  category: navigation
+  local: false
+  name: haya14busa/is.vim
+  opt: false
+- 
+  category: navigation
+  local: false
+  name: "haya14busa/vim-asterisk"
+  opt: false
+- 
   category: completion
   local: false
   name: "honza/vim-snippets"

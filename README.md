@@ -136,6 +136,11 @@ https://goushi.me/vim
   Incrementally highlights all matches, but this feature is already provided by [vim 8.0.1238](https://medium.com/@haya14busa/incsearch-vim-is-dead-long-live-incsearch-2b7070d55250).  
   So only one keymap is left: `g/` to search without cursor move.
 
+- [haya14busa/is.vim](https://github.com/haya14busa/is.vim)  
+  Successor of incsearch.vim (keep incsearch.vim since some plugins depend on it).  
+  Automatically clear search highlights after cursor moved.  
+  `<C-j>/<C-k>` to incrementally scroll between pages of search matches.
+
 - [haya14busa/incsearch-fuzzy.vim](https://github.com/haya14busa/incsearch-fuzzy.vim)  
   Incremantal fuzzy search extension for incsearch.vim.  
   `z/`/`z?`/`zg/` to do fuzzy search.  
@@ -145,6 +150,9 @@ https://goushi.me/vim
   Integration between incsearch.vim and vim-easymotion.  
   `<Leader>/`/`<Leader>?`/`<Leader>g/` to search with easymotion.  
   `<Leader>z/` to do fuzzy search with easymotion.
+
+- [haya14busa/vim-asterisk](https://github.com/haya14busa/vim-asterisk)  
+  Improve `*` motions: smartcase, stay cursor, work in visual mode.
 
 ## Edit
 
