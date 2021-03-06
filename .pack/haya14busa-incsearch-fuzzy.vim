@@ -1,9 +1,9 @@
 " fuzzy search
-map z/ <Plug>(incsearch-fuzzy-/)
-map z? <Plug>(incsearch-fuzzy-?)
-map zg/ <Plug>(incsearch-fuzzy-stay)
+map f/ <Plug>(incsearch-fuzzy-/)
+map f? <Plug>(incsearch-fuzzy-?)
+map fz/ <Plug>(incsearch-fuzzy-stay)
 
 " use *spell* feature in Vim
-map zz/ <Plug>(incsearch-fuzzyspell-/)
-map zz? <Plug>(incsearch-fuzzyspell-?)
-map zzg/ <Plug>(incsearch-fuzzyspell-stay)
+map ff/ <Plug>(incsearch-fuzzyspell-/)
+map ff? <Plug>(incsearch-fuzzyspell-?)
+map ffz/ <Plug>(incsearch-fuzzyspell-stay)

@@ -1,7 +1,7 @@
 " incsearch.vi X vim-easymotion
 map <leader>/ <Plug>(incsearch-easymotion-/)
 map <leader>? <Plug>(incsearch-easymotion-?)
-map <leader>g/ <Plug>(incsearch-easymotion-stay)
+map <leader>z/ <Plug>(incsearch-easymotion-stay)
 
 " incsearch.vim X fuzzy X vim-easymotion
 function! s:config_easyfuzzymotion(...) abort
@@ -13,4 +13,4 @@ function! s:config_easyfuzzymotion(...) abort
   \   'is_stay': 1
   \ }), get(a:, 1, {}))
 endfunction
-noremap <silent><expr> <leader>z/ incsearch#go(<SID>config_easyfuzzymotion())
+noremap <silent><expr> <leader><leader>/ incsearch#go(<SID>config_easyfuzzymotion())
