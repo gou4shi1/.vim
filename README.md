@@ -143,8 +143,8 @@ https://goushi.me/vim
 
 - [haya14busa/incsearch-fuzzy.vim](https://github.com/haya14busa/incsearch-fuzzy.vim)  
   Incremantal fuzzy search extension for incsearch.vim.  
-  `f/`/`f?`/`fz/` to do fuzzy search.  
-  `ff/`/`ff?`/`ffz/` to do fuzzy search with the spell feature of vim.
+  ~`f/`/`f?`/`fz/` to do fuzzy search.~  
+  ~`ff/`/`ff?`/`ffz/` to do fuzzy search with the spell feature of vim.~
 
 - [haya14busa/incsearch-easymotion.vim](https://github.com/haya14busa/incsearch-easymotion.vim)  
   Integration between incsearch.vim and vim-easymotion.  
