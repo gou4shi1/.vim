@@ -420,11 +420,6 @@
 - 
   category: default
   local: false
-  name: "vim-scripts/YankRing.vim"
-  opt: false
-- 
-  category: default
-  local: false
   name: "vim-scripts/ingo-library"
   opt: false
 - 

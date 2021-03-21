@@ -1,4 +1,4 @@
-let g:coc_global_extensions=['coc-lists', 'coc-fzf-preview', 'coc-clangd', 'coc-json', 'coc-sh', 'coc-python', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components', 'coc-react-refactor']
+let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-fzf-preview', 'coc-clangd', 'coc-json', 'coc-sh', 'coc-python', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components', 'coc-react-refactor']
 let g:my_filetypes_using_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'json', 'python', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
 
 " Use tab for trigger completion with characters ahead and navigate.
