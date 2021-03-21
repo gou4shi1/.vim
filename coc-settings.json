@@ -1,4 +1,5 @@
 {
+  "yank.highlight.enable": false,
   "diagnostic.enableMessage": "jump",
   "clangd.semanticHighlighting": true,
   "clangd.compilationDatabasePath": null,
