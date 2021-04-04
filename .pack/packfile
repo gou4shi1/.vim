@@ -290,6 +290,11 @@
 - 
   category: default
   local: false
+  name: rhysd/devdocs.vim
+  opt: false
+- 
+  category: default
+  local: false
   name: "romainl/vim-qf"
   opt: false
 - 
