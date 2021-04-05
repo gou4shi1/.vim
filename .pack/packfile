@@ -288,6 +288,11 @@
   name: "neoclide/vim-jsx-improve"
   opt: false
 - 
+  category: git
+  local: false
+  name: "rhysd/conflict-marker.vim"
+  opt: false
+- 
   category: default
   local: false
   name: rhysd/devdocs.vim
