@@ -4,7 +4,7 @@
 
 ---
 - 
-  category: formatting
+  category: format
   local: false
   name: "Chiel92/vim-autoformat"
   opt: false
@@ -91,7 +91,7 @@
   name: gou4shi1/ultisnips
   opt: false
 - 
-  category: linting
+  category: lint
   local: false
   name: "gou4shi1/vim-buf"
   opt: false
@@ -196,7 +196,7 @@
   name: junegunn/fzf.vim
   opt: false
 - 
-  category: formatting
+  category: format
   local: false
   name: "junegunn/vim-easy-align"
   opt: false
@@ -433,7 +433,7 @@
   name: "voldikss/vim-floaterm"
   opt: false
 - 
-  category: linting
+  category: lint
   local: false
   name: w0rp/ale
   opt: false
