@@ -408,7 +408,7 @@
   name: "vim-airline/vim-airline-themes"
   opt: false
 - 
-  category: buffer
+  category: z_last_load
   local: false
   name: "vim-ctrlspace/vim-ctrlspace"
   opt: false
