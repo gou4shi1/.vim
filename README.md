@@ -190,3 +190,10 @@ https://goushi.me/vim
 - [thinca/vim-quickrun](https://github.com/thinca/vim-quickrun)  
   `<F6>` to execute the whole/part of editing file quickly.  
   It supports many filetypes by default, so it's a good supplement to `after/ftplugin`.
+
+## Git
+
+- [rhysd/conflict-marker.vim](https://github.com/rhysd/conflict-marker.vim)  
+  Highlight, jump and resolve conflict markers quickly.  
+  `[<`/`]<` to jump to the next/prev conflict marker `<<<<<`.  
+  `ct/co/cn/cb/cB` to choose them/our/none/both to resolve conflicts.
