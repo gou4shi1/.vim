@@ -2,7 +2,6 @@
   "yank.highlight.enable": false,
   "diagnostic.enableMessage": "jump",
   "clangd.semanticHighlighting": true,
-  "clangd.compilationDatabasePath": null,
   "session.saveOnVimLeave": false,
   "python.formatting.provider": "yapf",
   "python.analysis.stubPath": "",
