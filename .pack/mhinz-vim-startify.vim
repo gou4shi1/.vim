@@ -13,7 +13,7 @@ let g:startify_lists = [
 " bookmarks
   let g:startify_bookmarks    = [
         \{'v': '~/.vim/vimrc'},
-        \{'z': '~/.zshrc'},
+        \{'z': '~/.zshrc##template'},
         \{'i': '~/.i3/config'},
 \]
 
