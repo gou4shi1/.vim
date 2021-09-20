@@ -2,7 +2,7 @@ let g:ale_linters_explicit = 1
 
 let g:ale_linters = {
 \   'sh': ['shellcheck'],
-\   'proto': ['buf-check-lint']
+\   'proto': ['buf-lint']
 \}
 
 " Disable ale if using coc
