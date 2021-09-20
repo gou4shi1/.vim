@@ -165,8 +165,9 @@ https://goushi.me/vim
 
 ## Buffer
 
-- [moll/vim-bbye](https://github.com/moll/vim-bbye)  
-  `<Leader>q` to delete the current buffer without closing your windows or messing up your layout.
+- [mhinz/vim-sayonara](https://github.com/mhinz/vim-sayonara)  
+  `<Leader>q` to delete the current buffer without closing your windows or messing up your layout.  
+  `:Q` as an alternative to `:q`.
 
 - [vim-scripts/BufOnly.vim](https://github.com/vim-scripts/BufOnly.vim)  
   `:Bonly` to delete all buffers but the current one.

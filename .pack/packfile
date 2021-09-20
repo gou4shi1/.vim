@@ -262,14 +262,14 @@
   name: mboughaba/i3config.vim
   opt: false
 - 
+  category: buffer
+  local: false
+  name: "mhinz/vim-sayonara"
+  opt: false
+- 
   category: default
   local: false
   name: "mhinz/vim-startify"
-  opt: false
-- 
-  category: buffer
-  local: false
-  name: "moll/vim-bbye"
   opt: false
 - 
   category: buffer
