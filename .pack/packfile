@@ -452,3 +452,8 @@
   local: false
   name: wellle/targets.vim
   opt: false
+- 
+  category: buffer
+  local: false
+  name: zhaocai/GoldenView.Vim
+  opt: false
