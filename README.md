@@ -176,6 +176,9 @@ https://goushi.me/vim
   `<Leader>sc/sC` to open a unobtrusive scratch window with/without previous content.  
   It will also copy the selected content to the scratch window if pressed in visual mode.
 
+- [farmergreg/vim-lastplace](https://github.com/farmergreg/vim-lastplace/)  
+  Intelligently reopen files at your last edit position.
+
 ## Run
 
 - [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm)  

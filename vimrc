@@ -99,20 +99,6 @@ set viminfo^=!
 set sessionoptions-=options
 set viewoptions-=options
 
-" jump to last cursor position
-augroup vimStartup
-    au!
-    " When editing a file, always jump to the last known cursor position.
-    " Don't do it when the position is invalid, when inside an event handler
-    " (happens when dropping a file on gvim) and for a commit message (it's
-    " likely a different one than last time).
-    autocmd BufReadPost *
-                \ if line("'\"") >= 1 && line("'\"") <= line("$") && &ft !~# 'commit'
-                \ |   exe "normal! g`\""
-                \ | endif
-
-augroup END
-
 " Automatically creates `foo/bar/` as needed when `:w foo/bar/baz.txt`
 autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p')
 

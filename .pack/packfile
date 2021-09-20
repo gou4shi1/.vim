@@ -64,6 +64,11 @@
   name: "epilande/vim-react-snippets"
   opt: false
 - 
+  category: buffer
+  local: false
+  name: "farmergreg/vim-lastplace"
+  opt: false
+- 
   category: appearance
   local: false
   name: "flazz/vim-colorschemes"
