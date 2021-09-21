@@ -116,12 +116,6 @@
   name: "gou4shi1/vim-leaderf-solarized-theme"
   opt: false
 - 
-  category: git
-  local: false
-  name: gregsexton/gitv
-  on: Gitv
-  opt: true
-- 
   category: navigation
   local: false
   name: "haya14busa/incsearch-easymotion.vim"
@@ -291,6 +285,11 @@
   category: highlight
   local: false
   name: "neoclide/vim-jsx-improve"
+  opt: false
+- 
+  category: git
+  local: false
+  name: "rbong/vim-flog"
   opt: false
 - 
   category: git

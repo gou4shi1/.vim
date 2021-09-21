@@ -204,3 +204,7 @@ https://goushi.me/vim
   Highlight, jump and resolve conflict markers quickly.  
   `[<`/`]<` to jump to the next/prev conflict marker `<<<<<`.  
   `ct/co/cn/cb/cB` to choose them/our/none/both to resolve conflicts.
+
+- [rbong/vim-flog](https://github.com/rbong/vim-flog)  
+  `:Flog` to view the git commit graph.  
+  In the graph, `gr` to toggle viewing the reflog, `gb` to toggle bisect mode, `gq` to quit.
