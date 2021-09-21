@@ -200,6 +200,10 @@ https://goushi.me/vim
 
 ## Git
 
+- [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)  
+  Show git diff in the sign column.  
+  `[c/]c` to jump between hunks, `<leader>hp/hs/hu` to preview, stage, and undo hunks.
+
 - [rhysd/conflict-marker.vim](https://github.com/rhysd/conflict-marker.vim)  
   Highlight, jump and resolve conflict markers quickly.  
   `[<`/`]<` to jump to the next/prev conflict marker `<<<<<`.  
