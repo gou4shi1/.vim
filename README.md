@@ -205,6 +205,22 @@ https://goushi.me/vim
   `[<`/`]<` to jump to the next/prev conflict marker `<<<<<`.  
   `ct/co/cn/cb/cB` to choose them/our/none/both to resolve conflicts.
 
+- [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)  
+  `:Git/G xxx` as an alternative to `:!git xxx` to call any arbitrary git command.  
+  For example, `:G blame` to blame the current file in a scroll-bound split view, `:G` to open a summary window.  
+  Additional commands are also provided, e.g. `:Gedit HEAD~3:%` to load the current file as it existed 3 commits ago.
+
+- [tpope/vim-rhubarb](https://github.com/tpope/vim-rhubarb)  
+  The GitHub extension for fugitive.vim.  
+  `:GBrowse` to open the corresponding GitHub url in browser.  
+  In commit messages, GitHub issues, issue URLs, and collaborators can be omni-completed.
+
+- [jparise/vim-phabricator](https://github.com/jparise/vim-phabricator)  
+  The Phabricator extension for fugitive.vim.  
+  `:GBrowse` to open the corresponding Phabricator url in browser.  
+  Syntax highlighting for Arcanist templates and configuration files.  
+  In arc diff templates, Phabricator users and projects can be omni-completed.
+
 - [rbong/vim-flog](https://github.com/rbong/vim-flog)  
   `:Flog` to view the git commit graph.  
   In the graph, `gr` to toggle viewing the reflog, `gb` to toggle bisect mode, `gq` to quit.
