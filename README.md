@@ -224,3 +224,7 @@ https://goushi.me/vim
 - [rbong/vim-flog](https://github.com/rbong/vim-flog)  
   `:Flog` to view the git commit graph.  
   In the graph, `gr` to toggle viewing the reflog, `gb` to toggle bisect mode, `gq` to quit.
+
+- [mattn/vim-gist](https://github.com/mattn/vim-gist)  
+  `Gist` to post current buffer to gist, `:'<,'>Gist` to post selected texts, `:Gist -m` to post all open buffers.  
+  `-p` to create a private gist, `-P` to create a public gist, `-a` to create anonymously.
