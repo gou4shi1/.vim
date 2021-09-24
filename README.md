@@ -160,6 +160,12 @@ https://goushi.me/vim
   Insert spaces before closing characters.  
   Only some filetype-based characters are enabled in config.
 
+## Completion
+
+- [kkoomen/vim-doge](https://github.com/kkoomen/vim-doge)  
+  `<Leader>do` to generate documentations (cursor should on the first line of function).  
+  `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
+
 ## Buffer
 
 - [mhinz/vim-sayonara](https://github.com/mhinz/vim-sayonara)  

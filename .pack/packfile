@@ -210,6 +210,11 @@
   name: kassio/neoterm
   opt: false
 - 
+  category: completion
+  local: false
+  name: "kkoomen/vim-doge"
+  opt: false
+- 
   category: appearance
   local: false
   name: "kshenoy/vim-signature"
@@ -415,11 +420,6 @@
   category: buffer
   local: false
   name: "vim-scripts/BufOnly.vim"
-  opt: false
-- 
-  category: completion
-  local: false
-  name: "vim-scripts/DoxygenToolkit.vim"
   opt: false
 - 
   category: edit
