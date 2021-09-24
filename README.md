@@ -75,9 +75,6 @@ https://goushi.me/vim
   存放所有文件的可持久 `undo` 历史  
   (可持久指退出后再进来依然保持)
 
-- `yankring_history_v2.txt`  
-   [YankRing](https://github.com/vim-scripts/YankRing.vim) 插件可持久化粘贴板
-
 - `globalrc`  
   Gtags 的配置文件
 
