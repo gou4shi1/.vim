@@ -34,11 +34,6 @@
   name: "dbeniamine/cheat.sh-vim"
   opt: false
 - 
-  category: completion
-  local: false
-  name: "derekwyatt/vim-protodef"
-  opt: false
-- 
   category: navigation
   local: false
   name: "dkprice/vim-easygrep"
