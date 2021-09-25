@@ -9,6 +9,11 @@
   name: "Chiel92/vim-autoformat"
   opt: false
 - 
+  category: completion
+  local: false
+  name: SirVer/ultisnips
+  opt: false
+- 
   category: git
   local: false
   name: "Xuyuanp/nerdtree-git-plugin"
@@ -85,11 +90,6 @@
   local: false
   name: "gou4shi1/git-slides"
   opt: true
-- 
-  category: completion
-  local: false
-  name: gou4shi1/ultisnips
-  opt: false
 - 
   category: lint
   local: false

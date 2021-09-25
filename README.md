@@ -166,6 +166,14 @@ https://goushi.me/vim
   `<Leader>do` to generate documentations (cursor should on the first line of function).  
   `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
 
+- [SirVer/ultisnips](https://github.com/SirVer/ultisnips)  
+  `:SnipEdit` to view/edit all available snippets for the current file/filetype.  
+  `<C-j>` to expand snippets after keywords.  
+  `<C-j>/<C-k>` to jump forward/backward within a snippet.
+
+- [honza/vim-snippets](https://github.com/honza/vim-snippets)  
+  Contains community-maintained snippets for various programming languages.
+
 ## Buffer
 
 - [mhinz/vim-sayonara](https://github.com/mhinz/vim-sayonara)  
