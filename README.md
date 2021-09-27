@@ -154,6 +154,12 @@ https://goushi.me/vim
 
 ## Edit
 
+- [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)  
+  `<Leader>cc` to comment out the current line or text selected in visual mode.  
+  `<Leader>cl` to align at left.  
+  `<Leader>cs` to comment out the selected lines with a pretty block formatted layout.  
+  `<Leader>cu` to uncomment the selected line(s).
+
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  
   Insert/Delete in pair.  
   Insert new indented line after `<CR>`.  
