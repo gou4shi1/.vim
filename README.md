@@ -160,6 +160,12 @@ https://goushi.me/vim
   `<Leader>cs` to comment out the selected lines with a pretty block formatted layout.  
   `<Leader>cu` to uncomment the selected line(s).
 
+- [gcmt/wildfire.vim](https://github.com/gcmt/wildfire.vim)  
+  Press `<Enter>` in normal mode to select the closest text object.  
+  Keep pressing `<Enter>` for selecting the next closest text object.  
+  To select the previously selected text object, press `<BS>`.
+  ![Preview](https://github.com/gcmt/wildfire.vim/raw/master/_assets/preview.gif)
+
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  
   Insert/Delete in pair.  
   Insert new indented line after `<CR>`.  
