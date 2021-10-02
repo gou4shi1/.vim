@@ -4,6 +4,11 @@
 
 ---
 - 
+  category: git
+  local: false
+  name: APZelos/blamer.nvim
+  opt: false
+- 
   category: format
   local: false
   name: "Chiel92/vim-autoformat"
