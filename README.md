@@ -166,6 +166,10 @@ https://goushi.me/vim
   To select the previously selected text object, press `<BS>`.
   ![Preview](https://github.com/gcmt/wildfire.vim/raw/master/_assets/preview.gif)
 
+- [lilydjwg/fcitx.vim](https://github.com/lilydjwg/fcitx.vim)  
+  Keep and restore fcitx state for each buffer separately when leaving/re-entering insert mode or search mode.  
+  Like always typing English in normal mode, but Chinese in insert mode.
+
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  
   Insert/Delete in pair.  
   Insert new indented line after `<CR>`.  
