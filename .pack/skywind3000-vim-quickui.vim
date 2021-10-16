@@ -12,6 +12,7 @@ let g:quickui_show_tip = 1
 call quickui#menu#reset()
 
 call quickui#menu#install("&Option", [
+                  \ ['Set &Blamer %{g:blamer_enabled? "Off":"On"}', 'BlamerToggle', 'BlamerToggle'],
                   \ ['Set &Spell %{&spell? "Off":"On"}', 'set spell!', 'set spell!'],
                   \ ])
 

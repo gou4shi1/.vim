@@ -267,5 +267,6 @@ https://goushi.me/vim
   `-p` to create a private gist, `-P` to create a public gist, `-a` to create anonymously.
 
 - [APZelos/blamer.nvim](https://github.com/APZelos/blamer.nvim)  
-  Show git blame as VS Code's GitLens plugin.
+  Show git blame as VS Code's GitLens plugin.  
+  It's disabled by default since it's a little buggy, you can toggle it in the `<F1>` menu.
   ![blamer gif](https://res.cloudinary.com/djg49e1u9/image/upload/c_crop,h_336/v1579092411/blamer_mkv07c.gif)
