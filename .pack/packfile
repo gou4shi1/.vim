@@ -90,12 +90,6 @@
   name: gou4shi1/LeaderF
   opt: false
 - 
-  build: ./install.sh
-  category: default
-  local: false
-  name: "gou4shi1/git-slides"
-  opt: true
-- 
   category: lint
   local: false
   name: "gou4shi1/vim-buf"
@@ -259,11 +253,6 @@
   category: default
   local: false
   name: "mattn/webapi-vim"
-  opt: false
-- 
-  category: default
-  local: false
-  name: mboughaba/i3config.vim
   opt: false
 - 
   category: buffer
@@ -430,11 +419,6 @@
   category: edit
   local: false
   name: "vim-scripts/DrawIt"
-  opt: false
-- 
-  category: default
-  local: false
-  name: "vim-scripts/ingo-library"
   opt: false
 - 
   category: run
