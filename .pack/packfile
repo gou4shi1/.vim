@@ -74,11 +74,6 @@
   name: "farmergreg/vim-lastplace"
   opt: false
 - 
-  category: appearance
-  local: false
-  name: "flazz/vim-colorschemes"
-  opt: false
-- 
   category: edit
   local: false
   name: gcmt/wildfire.vim
@@ -222,6 +217,11 @@
   category: tex
   local: false
   name: lervag/vimtex
+  opt: false
+- 
+  category: appearance
+  local: false
+  name: "lifepillar/vim-solarized8"
   opt: false
 - 
   category: edit

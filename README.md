@@ -270,3 +270,8 @@ https://goushi.me/vim
   Show git blame as VS Code's GitLens plugin.  
   It's disabled by default since it's a little buggy, you can toggle it in the `<F1>` menu.
   ![blamer gif](https://res.cloudinary.com/djg49e1u9/image/upload/c_crop,h_336/v1579092411/blamer_mkv07c.gif)
+
+## Appearance 
+
+- [lifepillar/vim-solarized8](https://github.com/lifepillar/vim-solarized8)  
+  A solarized colorscheme that is optimized for true-color terminals.
