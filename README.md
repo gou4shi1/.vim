@@ -275,3 +275,6 @@ https://goushi.me/vim
 
 - [lifepillar/vim-solarized8](https://github.com/lifepillar/vim-solarized8)  
   A solarized colorscheme that is optimized for true-color terminals.
+
+- [jszakmeister/vim-togglecursor](https://github.com/jszakmeister/vim-togglecursor)  
+  Toggle the cursor shape when entering the insert mode.
