@@ -1,6 +1,7 @@
 {
   "yank.highlight.enable": false,
   "diagnostic.enableMessage": "jump",
+  "suggest.defaultSortMethod": "none",
   "clangd.semanticHighlighting": true,
   "coc.preferences.semanticTokensHighlights": false,
   "session.saveOnVimLeave": false,
