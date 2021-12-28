@@ -8,19 +8,6 @@
     "semanticTokens": true,
     "gofumpt": true
   },
-  "python.formatting.provider": "yapf",
-  "python.analysis.stubPath": "",
-  "python.analysis.extraPaths": ["/home/guangqing.chen/.local/lib/python3.5/site-packages"],
-  "languageserver": {
-    "pylance": {
-      "enable": true,
-      "filetypes": ["python"],
-      "module": "~/.config/coc/extensions/vscode-pylance/dist/server.bundle.js",
-      "initializationOptions": {},
-      "settings": {
-        "python.analysis.typeCheckingMode": "basic",
-        "python.analysis.diagnosticSeverityOverrides": {}
-      }
-    }
-  }
+  "python.pythonPath": "python3",
+  "python.formatting.provider": "yapf"
 }
