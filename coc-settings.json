@@ -4,6 +4,10 @@
   "clangd.semanticHighlighting": true,
   "coc.preferences.semanticTokensHighlights": false,
   "session.saveOnVimLeave": false,
+  "go.goplsOptions": {
+    "semanticTokens": true,
+    "gofumpt": true
+  },
   "python.formatting.provider": "yapf",
   "python.analysis.stubPath": "",
   "python.analysis.extraPaths": ["/home/guangqing.chen/.local/lib/python3.5/site-packages"],
