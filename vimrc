@@ -213,7 +213,3 @@ endfunc
 
 " keymaps in terminal
 tnoremap <ESC><ESC> <C-\><C-n>
-
-" temporarily fix https://github.com/vim/vim/issues/5617
-let &t_TI = ""
-let &t_TE = ""
