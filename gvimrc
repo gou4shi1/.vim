@@ -1,5 +1,5 @@
 " font (need to be installed on your system additionaly)
-set guifont=Microsoft\ Yahei\ Mono\ Nerd\ Font\ 13
+set guifont=Monospace\ 13
 
 " disable cursor blink on normal mode
 set guicursor+=n-v-c:blinkon0
