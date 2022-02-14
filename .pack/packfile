@@ -149,11 +149,6 @@
   name: "iamcco/mathjax-support-for-mkdp"
   opt: true
 - 
-  category: highlight
-  local: false
-  name: "jackguo380/vim-lsp-cxx-highlight"
-  opt: false
-- 
   category: navigation
   local: false
   name: "jesseleite/vim-agriculture"
