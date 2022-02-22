@@ -219,11 +219,6 @@
   name: "lifepillar/vim-solarized8"
   opt: false
 - 
-  category: edit
-  local: false
-  name: lilydjwg/fcitx.vim
-  opt: false
-- 
   category: navigation
   local: false
   name: liuchengxu/vista.vim
@@ -289,6 +284,11 @@
   category: default
   local: false
   name: rhysd/devdocs.vim
+  opt: false
+- 
+  category: edit
+  local: false
+  name: "rlue/vim-barbaric"
   opt: false
 - 
   category: default

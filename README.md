@@ -172,8 +172,8 @@ https://goushi.me/vim
   `ds{surrounding}` to delete `surrounding`, e.g. `ds(` or `dss` makes `( foo )` to `foo` (`dss` searches a set of surrounding automatically).  
   `cs{old}{new}` to replace `old` with `new`, e.g. `cs("` or `css"` makes `(foo)` to `"foo"` (`css` is similar as `dss`).
 
-- [lilydjwg/fcitx.vim](https://github.com/lilydjwg/fcitx.vim)  
-  Keep and restore fcitx state for each buffer separately when leaving/re-entering insert mode or search mode.  
+- [rlue/vim-barbaric](https://github.com/rlue/vim-barbaric)  
+  Keep and restore input method state for each buffer separately when leaving/re-entering insert mode.  
   Like always typing English in normal mode, but Chinese in insert mode.
 
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)  
