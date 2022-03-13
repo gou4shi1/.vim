@@ -107,8 +107,15 @@ autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p'
 set background=dark
 "set background=light
 
-" require a vim compiled with `+termguicolors` and run on a true-color terminal
-set termguicolors
+if has("termguicolors")
+  " Require a vim compiled with `+termguicolors` and run on a true-color terminal.
+  set termguicolors
+  " https://github.com/lifepillar/vim-solarized8#troubleshooting
+  if $TERM ==# 'tmux-256color'
+    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  endif
+endif
 
 " display auxiliary information
 set number
