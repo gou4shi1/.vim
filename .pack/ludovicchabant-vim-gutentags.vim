@@ -1,3 +1,5 @@
+let g:gutentags_generate_on_new = 0
+let g:gutentags_generate_on_write = 0
 let g:gutentags_cache_dir = expand('~/.cache/gutentags')
 let g:gutentags_exclude_project_root = [expand('~/.vim')]
 let g:gutentags_define_advanced_commands = 1

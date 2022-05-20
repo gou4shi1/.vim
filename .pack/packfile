@@ -92,7 +92,7 @@
 - 
   category: navigation
   local: false
-  name: "gou4shi1/vim-gutentags"
+  name: "ludovicchabant/vim-gutentags"
   opt: false
 - 
   category: appearance
