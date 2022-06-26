@@ -90,11 +90,6 @@
   name: "gou4shi1/vim-buf"
   opt: false
 - 
-  category: navigation
-  local: false
-  name: "ludovicchabant/vim-gutentags"
-  opt: false
-- 
   category: appearance
   local: false
   name: "gou4shi1/vim-indent-guides"
@@ -222,6 +217,11 @@
   category: navigation
   local: false
   name: liuchengxu/vista.vim
+  opt: false
+- 
+  category: navigation
+  local: false
+  name: "ludovicchabant/vim-gutentags"
   opt: false
 - 
   category: highlight
