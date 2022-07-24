@@ -43,8 +43,10 @@ set history=500
 set scrolloff=5
 set sidescrolloff=5
 
-" display completion matches in a status line
+" Display completion matches in a popup menu.
 set wildmenu
+" This requires Vim 9.
+set wildoptions=pum
 " display incomplete commands
 set showcmd
 
