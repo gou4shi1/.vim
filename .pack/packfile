@@ -326,6 +326,11 @@
   name: skywind3000/asyncrun.vim
   opt: false
 - 
+  category: run
+  local: false
+  name: skywind3000/asynctasks.vim
+  opt: false
+- 
   category: navigation
   local: false
   name: skywind3000/gutentags_plus
@@ -344,11 +349,6 @@
   category: edit
   local: false
   name: "terryma/vim-multiple-cursors"
-  opt: false
-- 
-  category: run
-  local: false
-  name: "thinca/vim-quickrun"
   opt: false
 - 
   category: edit

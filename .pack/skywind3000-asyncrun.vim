@@ -1,5 +1,5 @@
 " open quickfix window automatically at 8 lines height after command starts
-"let g:asyncrun_open = 8
+let g:asyncrun_open = 8
 
 " open the quickfix window when something adds to it
 autocmd QuickFixCmdPost * call asyncrun#quickfix_toggle(8, 1)
@@ -25,3 +25,8 @@ let g:asyncrun_save = 1
 " :Make (replaced for :make)
 command! -bang -nargs=* -complete=file Make AsyncRun -program=make @ <args>
 
+function! NeotermRunner(opts)
+  exec 'T ' . a:opts.cmd
+endfunction
+let g:asyncrun_runner = get(g:, 'asyncrun_runner', {})
+let g:asyncrun_runner.neoterm = function('NeotermRunner')

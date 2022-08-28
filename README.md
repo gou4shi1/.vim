@@ -46,13 +46,6 @@ https://goushi.me/vim
 - `install.sh`  
   一键安装脚本（不包括 `rg` 等安装过程跟系统相关性较大的前置依赖)
 
-- `after/ftplugin`  
-  存放针对各文件类型的自定义配置
-
-- `compiler`  
-  比如里面有个 `python3.vim` 文件  
-  则可在 Vim 里执行 `:compiler python3` 来设置 `makeprg` `errorformat` 等
-
 - `swap`  
   统一存放所有交换文件，避免污染项目目录
 
@@ -218,18 +211,20 @@ https://goushi.me/vim
 ## Run
 
 - [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm)  
-  `<F8>` to open a new terminal in popup window.  
+  `<F8>` to open a new terminal in the popup window.  
   `<F9>/<S-F9>` to switch to the next/prev terminal.  
   `<F10>` to toggle the popup window.
 
 - [kassio/neoterm](https://github.com/kassio/neoterm)  
   `:T cmd` is a replacement of `:term cmd` that reuse the terminal already exists.  
-  `<F6>` to run the current c/cpp/python file in neoterm (config in `after/ftplugin`).  
   TODO: Add keymaps for [REPL](https://github.com/kassio/neoterm#repl).
 
-- [thinca/vim-quickrun](https://github.com/thinca/vim-quickrun)  
-  `<F6>` to execute the whole/part of editing file quickly.  
-  It supports many filetypes by default, so it's a good supplement to `after/ftplugin`.
+- [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)  
+  `:AsyncRun cmd` to run your comamnd asynchronously and see output in quickfix/floaterm/neoterm.
+
+- [skywind3000/asynctasks.vim](https://github.com/skywind3000/asynctasks.vim)  
+  It uses a `.tasks` file in your project folders for local tasks and uses `~/.vim/tasks.ini` to define global tasks.  
+  `<F5>/<F6>/<F7>` to compile/run/debug the current file in floaterm.
 
 ## Git
 
