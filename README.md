@@ -205,7 +205,7 @@ https://goushi.me/vim
 - [farmergreg/vim-lastplace](https://github.com/farmergreg/vim-lastplace/)  
   Intelligently reopen files at your last edit position.
 
-- [zhaocai/GoldenView.Vim](https://github.com/zhaocai/GoldenView.Vim)  
+- [gou4shi1/GoldenView.Vim](https://github.com/gou4shi1/GoldenView.Vim)  
   Automatically resize the focused split window to a "golden" view based on golden ratio and textwidth.
 
 ## Run

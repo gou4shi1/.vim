@@ -79,6 +79,11 @@
   name: gcmt/wildfire.vim
   opt: false
 - 
+  category: buffer
+  local: false
+  name: gou4shi1/GoldenView.Vim
+  opt: false
+- 
   build: ./install.sh
   category: navigation
   local: false
@@ -429,9 +434,4 @@
   category: edit
   local: false
   name: wellle/targets.vim
-  opt: false
-- 
-  category: buffer
-  local: false
-  name: zhaocai/GoldenView.Vim
   opt: false
