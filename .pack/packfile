@@ -266,7 +266,7 @@
   opt: false
 - 
   build: git checkout release
-  category: default
+  category: lsp
   local: false
   name: neoclide/coc.nvim
   opt: false

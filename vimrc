@@ -50,6 +50,9 @@ set wildoptions=pum
 " display incomplete commands
 set showcmd
 
+" The maximum number of items to show in the popup menu for completion.
+set pumheight=20
+
 " Allow backspacing over everything in insert mode.
 set backspace=eol,start,indent
 

@@ -84,6 +84,11 @@ https://goushi.me/vim
   Create your own submode keymaps.  
   For example, `<C-w><<<` to resize split window quickly.
 
+## LSP
+
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)  
+  A [LSP](https://microsoft.github.io/language-server-protocol) client that can load js extensions like VSCode.
+
 ## Navigation
 
 - [junegunn/fzf](https://github.com/junegunn/fzf)  

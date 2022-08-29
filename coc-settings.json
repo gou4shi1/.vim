@@ -1,19 +1,68 @@
 {
-  "yank.highlight.enable": false,
+  // General Config
+  "codeLens.enable": true,
+
   "diagnostic.enableMessage": "jump",
-  "suggest.defaultSortMethod": "none",
-  "semanticTokens.filetypes": [ "*" ],
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextAlign": "right",
+  "diagnostic.virtualTextLevel": "warning",
+  "diagnostic.virtualTextLimitInOneLine": 1,
+  "diagnostic.virtualTextLines": 1,
+  "diagnostic.virtualTextPrefix": "   ",
+
+  "inlayHint.filetypes": [],
+
+  "semanticTokens.filetypes": ["*"],
+
   "session.saveOnVimLeave": false,
+
+  "suggest.completionItemKindLabels": {
+    "keyword": "",
+    "variable": "",
+    "value": "",
+    "operator": "Ψ",
+    "constructor": "",
+    "function": "ƒ",
+    "reference": "渚",
+    "constant": "",
+    "method": "",
+    "struct": "פּ",
+    "class": "",
+    "interface": "",
+    "text": "",
+    "enum": "",
+    "enumMember": "",
+    "module": "",
+    "color": "",
+    "property": "",
+    "field": "料",
+    "unit": "",
+    "event": "鬒",
+    "file": "",
+    "folder": "",
+    "snippet": "",
+    "typeParameter": "",
+    "default": ""
+  },
+  "suggest.defaultSortMethod": "none",
+  "suggest.reversePumAboveCursor": true,
+  "suggest.virtualText": true,
+
+  "yank.highlight.enable": false,
+
+  // Language Config
   "go.goplsOptions": {
     "semanticTokens": true,
     "gofumpt": true
   },
+
   "python.pythonPath": "python3",
   "python.formatting.provider": "yapf",
+
   "languageserver": {
     "nix": {
       "command": "rnix-lsp",
-      "filetypes": [ "nix" ]
+      "filetypes": ["nix"]
     }
   }
 }
