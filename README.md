@@ -89,6 +89,10 @@ https://goushi.me/vim
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)  
   A [LSP](https://microsoft.github.io/language-server-protocol) client that can load js extensions like VSCode.
 
+- [dense-analysis/ale](https://github.com/dense-analysis/ale)  
+  A LSP client that focused on integrating with external linters.  
+  It supports many filetypes by default, so it's a good supplement to CoC.
+
 ## Navigation
 
 - [junegunn/fzf](https://github.com/junegunn/fzf)  

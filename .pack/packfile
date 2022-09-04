@@ -44,6 +44,11 @@
   name: "dbeniamine/cheat.sh-vim"
   opt: false
 - 
+  category: lsp
+  local: false
+  name: "dense-analysis/ale"
+  opt: false
+- 
   category: navigation
   local: false
   name: "dkprice/vim-easygrep"
@@ -88,11 +93,6 @@
   category: navigation
   local: false
   name: gou4shi1/LeaderF
-  opt: false
-- 
-  category: lint
-  local: false
-  name: "gou4shi1/vim-buf"
   opt: false
 - 
   category: appearance
@@ -419,11 +419,6 @@
   category: run
   local: false
   name: "voldikss/vim-floaterm"
-  opt: false
-- 
-  category: lint
-  local: false
-  name: w0rp/ale
   opt: false
 - 
   category: edit
