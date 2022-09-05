@@ -1,5 +1,5 @@
 let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-fzf-preview', 'coc-clangd', 'coc-json', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
-let g:my_filetypes_using_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'go', 'json', 'jsonc', 'python', 'nix', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
+let g:my_filetypes_format_with_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'go', 'json', 'jsonc', 'python', 'nix', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
 
 " completion
 function! CheckBackspace() abort
