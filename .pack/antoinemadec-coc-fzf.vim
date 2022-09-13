@@ -1,3 +1,5 @@
+let g:coc_fzf_location_delay = 10
+
 " add_list_source(name, description, command)
 call coc_fzf#common#add_list_source('files', 'open files in cwd', 'Leaderf file .')                               " replace with LeaderF's file .
 call coc_fzf#common#add_list_source('pfiles', 'open files in project', 'Leaderf file')                            " add LeaderF's file
