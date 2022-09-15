@@ -10,9 +10,9 @@
   "diagnostic.virtualTextLines": 1,
   "diagnostic.virtualTextPrefix": "   ",
 
-  "inlayHint.filetypes": [],
+  "inlayHint.enable": false,
 
-  "semanticTokens.filetypes": ["*"],
+  "semanticTokens.enable": true,
 
   "session.saveOnVimLeave": false,
 
