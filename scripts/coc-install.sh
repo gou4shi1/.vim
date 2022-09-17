@@ -9,4 +9,5 @@ mkdir -p ~/.config/coc/extensions
 rm -rf ~/.config/coc/extensions.bak
 mv ~/.config/coc/extensions ~/.config/coc/extensions.bak
 log::info "Install coc extensions via vim."
+sleep 1
 vim # CocInstall will be called automatically.
