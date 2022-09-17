@@ -55,12 +55,6 @@ https://goushi.me/vim
 - `session`  
   存放 session 文件
 
-- `tags`  
-  存放手动生成的 ctags 文件（比如 `stdc++.tags`）
-
-- `file-headers`  
-  存放自定义的文件头
-
 - `UltiSnips`  
   存放自定义的 `snip` 文件
 
