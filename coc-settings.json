@@ -1,5 +1,7 @@
 {
   // General Config
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+
   "codeLens.enable": true,
 
   "diagnostic.enableMessage": "jump",
@@ -11,6 +13,8 @@
   "diagnostic.virtualTextPrefix": "   ",
 
   "inlayHint.enable": false,
+
+  "outline.previewBorderRounded": true,
 
   "semanticTokens.enable": true,
 

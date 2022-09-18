@@ -30,7 +30,7 @@ nmap <silent> <leader>td <Plug>(coc-type-definition)
 nmap <silent> <leader>ti <Plug>(coc-implementation)
 
 " hover
-function! ShowDocumentation()
+function! ShowDocumentation() abort
   if CocAction('hasProvider', 'hover')
     call CocActionAsync('doHover')
   else
@@ -43,6 +43,18 @@ nnoremap <silent> K :call ShowDocumentation()<CR>
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 autocmd User CocStatusChange redrawstatus
+
+" outline
+function! ToggleOutline() abort
+  let winid = coc#window#find('cocViewId', 'OUTLINE')
+  if winid == -1
+    call CocActionAsync('showOutline', 1)
+  else
+    call coc#window#close(winid)
+  endif
+endfunction
+
+nnoremap <silent> <Leader><Leader>t :call ToggleOutline()<CR>
 
 " rename
 nmap <F2> <Plug>(coc-rename)
