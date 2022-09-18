@@ -42,6 +42,8 @@ nnoremap <silent> K :call ShowDocumentation()<CR>
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
+autocmd User CocStatusChange redrawstatus
+
 " rename
 nmap <F2> <Plug>(coc-rename)
 
