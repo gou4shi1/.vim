@@ -26,6 +26,7 @@ nmap <silent> <C-y> <Plug>(coc-fix-current)
 " navigation
 nmap <silent> <leader>tt <Plug>(coc-definition)
 nmap <silent> <leader>tr <Plug>(coc-references)
+nmap <silent> <leader>tu <Plug>(coc-references-used)
 nmap <silent> <leader>td <Plug>(coc-type-definition)
 nmap <silent> <leader>ti <Plug>(coc-implementation)
 
