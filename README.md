@@ -83,7 +83,8 @@ https://goushi.me/vim
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)  
   A [LSP](https://microsoft.github.io/language-server-protocol) client that can load js extensions like VSCode.  
   `<C-k/j>` to navigate between diagnostics, `<C-y>` to auto fix the current diagnostic.  
-  `<leader>tt/tr/tu/td/ti` to jump to the definition/references/references-used/type-definition/implementation of current symbol.  
+  `<C-]>` to jump to the definition of current symbol, `<C-t>` to jump back in the tag stack.  
+  `<leader>tr/tu/tt/ti` to jump to the references/references-used/type-definition/implementation of current symbol.  
   `K` to show the documentation of current symbol. `<F2>` to rename the current symbol.  
   `<leader>th` to switch between the implementation file and it's corresponding header file.  
   `<leader><leader>t` to toggle the tagbar.
