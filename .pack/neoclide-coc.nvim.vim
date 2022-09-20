@@ -1,5 +1,9 @@
 let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-fzf-preview', 'coc-clangd', 'coc-json', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
-let g:my_filetypes_format_with_coc=['c', 'cc', 'cpp', 'objc', 'objcpp', 'go', 'json', 'jsonc', 'python', 'nix', 'javascript', 'javascriptreact', 'typescript', 'typescriptreact']
+
+" format
+let g:coc_trim_trailing_whitespace = 1
+let g:coc_trim_final_newlines = 1
+autocmd FileType c,cpp,go,json,jsonc,python,nix,javascript,javascriptreact,typescript,typescriptreact setl formatexpr=CocAction('formatSelected')
 
 " completion
 function! CheckBackspace() abort

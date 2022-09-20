@@ -1,6 +1,6 @@
 " Mix Autoformat and coc-format.
-nmap <silent><expr> <Leader>= count(g:my_filetypes_format_with_coc, &filetype) ? "<Plug>(coc-format)" : ":Autoformat<CR>"
-xmap <silent><expr> <Leader>= count(g:my_filetypes_format_with_coc, &filetype) ? "<Plug>(coc-format-selected)" : ":Autoformat<CR>"
+nmap <silent><expr> <Leader>= (&formatexpr =~ 'Coc') ? "<Plug>(coc-format)" : ":Autoformat<CR>"
+xmap <silent><expr> <Leader>= (&formatexpr =~ 'Coc') ? "<Plug>(coc-format-selected)" : ":Autoformat<CR>"
 
 " Bazel
 let g:formatdef_custom_bzl='"buildifier --type=build"'
