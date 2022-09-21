@@ -9,11 +9,6 @@
   name: APZelos/blamer.nvim
   opt: false
 - 
-  category: format
-  local: false
-  name: "Chiel92/vim-autoformat"
-  opt: false
-- 
   category: completion
   local: false
   name: SirVer/ultisnips
@@ -179,7 +174,7 @@
   name: junegunn/fzf.vim
   opt: false
 - 
-  category: format
+  category: edit
   local: false
   name: "junegunn/vim-easy-align"
   opt: false
@@ -299,6 +294,11 @@
   category: appearance
   local: false
   name: "ryanoasis/vim-devicons"
+  opt: false
+- 
+  category: edit
+  local: false
+  name: sbdchd/neoformat
   opt: false
 - 
   category: edit
