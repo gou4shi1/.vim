@@ -1,4 +1,4 @@
-let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-fzf-preview',
+let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-fzf-preview',
       \ 'coc-clangd', 'coc-json', 'coc-sh', 'coc-pyright', 'coc-go',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
 
@@ -22,6 +22,8 @@ inoremap <expr> <S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " snippet
+command SnipFiles CocCommand snippets.openSnippetFiles
+command SnipUser CocCommand snippets.editSnippets
 autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 
 " diagnostic

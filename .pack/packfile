@@ -9,11 +9,6 @@
   name: APZelos/blamer.nvim
   opt: false
 - 
-  category: completion
-  local: false
-  name: SirVer/ultisnips
-  opt: false
-- 
   category: git
   local: false
   name: "Xuyuanp/nerdtree-git-plugin"
@@ -59,12 +54,12 @@
   name: "easymotion/vim-easymotion"
   opt: false
 - 
-  category: completion
+  category: snippets
   local: false
   name: "epilande/vim-es2015-snippets"
   opt: false
 - 
-  category: completion
+  category: snippets
   local: false
   name: "epilande/vim-react-snippets"
   opt: false
@@ -125,7 +120,7 @@
   name: "haya14busa/vim-asterisk"
   opt: false
 - 
-  category: completion
+  category: snippets
   local: false
   name: "honza/vim-snippets"
   opt: false
@@ -194,7 +189,7 @@
   name: kassio/neoterm
   opt: false
 - 
-  category: completion
+  category: edit
   local: false
   name: "kkoomen/vim-doge"
   opt: false

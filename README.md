@@ -87,7 +87,10 @@ https://goushi.me/vim
   `<leader>tr/tu/tt/ti` to jump to the references/references-used/type-definition/implementation of current symbol.  
   `K` to show the documentation of current symbol. `<F2>` to rename the current symbol.  
   `<leader>th` to switch between the implementation file and it's corresponding header file.  
-  `<leader><leader>t` to toggle the tagbar.
+  `<leader><leader>t` to toggle the tagbar.  
+  `:SnipFiles` to view/edit available snippets files for the current file/filetype.  
+  `:SnipUser` to edit the user snippets file under `~/.config/coc` for the current filetype.  
+  `<C-j>/<C-k>` to jump between placeholders of a snippet.
 
 - [dense-analysis/ale](https://github.com/dense-analysis/ale)  
   A LSP client that focused on integrating with external linters.  
@@ -180,19 +183,9 @@ https://goushi.me/vim
   Insert spaces before closing characters.  
   Only some filetype-based characters are enabled in config.
 
-## Completion
-
 - [kkoomen/vim-doge](https://github.com/kkoomen/vim-doge)  
   `<Leader>do` to generate documentations (cursor should on the first line of function).  
   `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
-
-- [SirVer/ultisnips](https://github.com/SirVer/ultisnips)  
-  `:SnipEdit` to view/edit all available snippets for the current file/filetype.  
-  `<C-j>` to expand snippets after keywords.  
-  `<C-j>/<C-k>` to jump forward/backward within a snippet.
-
-- [honza/vim-snippets](https://github.com/honza/vim-snippets)  
-  Contains community-maintained snippets for various programming languages.
 
 ## Buffer
 
