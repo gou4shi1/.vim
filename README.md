@@ -161,6 +161,12 @@ https://goushi.me/vim
   `<Leader>cs` to comment out the selected lines with a pretty block formatted layout.  
   `<Leader>cu` to uncomment the selected line(s).
 
+- [mg979/vim-visual-multi](https://github.com/mg979/vim-visual-multi)  
+  To create multiple cursors:  
+  Select words with `<C-n>`, or select characters with `<S-Right/Left>`, then `n/N` to get the next/previous occurrence, `q` to skip current and get the next.  
+  Create cursors vertically with `<C-Down/Up>`, then `[/]` to select the previous/next cursor, `Q` to remove the current cursor/selection.  
+  `<Tab>` to switch between cursor mode (similar as normal mode) and extend mode (similar as visual mode).
+
 - [gcmt/wildfire.vim](https://github.com/gcmt/wildfire.vim)  
   Press `<Enter>` in normal mode to select the closest text object.  
   Keep pressing `<Enter>` for selecting the next closest text object.  
