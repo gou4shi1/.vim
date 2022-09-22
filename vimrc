@@ -169,8 +169,5 @@ tnoremap <ESC><ESC> <C-\><C-n>
 " %% -> local path
 cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
 
-" sudo save
-command W w !sudo tee % > /dev/null
-
 " See the difference between the current buffer and the file it was loaded from, thus the changes you made.
 command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis | wincmd p | diffthis
