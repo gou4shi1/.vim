@@ -1,6 +1,7 @@
 {
   // General Config
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.enableLinkedEditing": true,
 
   "codeLens.enable": true,
 
