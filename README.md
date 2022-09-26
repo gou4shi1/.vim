@@ -90,7 +90,8 @@ https://goushi.me/vim
   `<leader><leader>t` to toggle the tagbar.  
   `:SnipFiles` to view/edit available snippets files for the current file/filetype.  
   `:SnipUser` to edit the user snippets file under `~/.config/coc` for the current filetype.  
-  `<C-j>/<C-k>` to jump between placeholders of a snippet.
+  `<C-j>/<C-k>` to jump between placeholders of a snippet.  
+  `<leader>md` to open a real-time preview page of the current markdown file.
 
 - [dense-analysis/ale](https://github.com/dense-analysis/ale)  
   A LSP client that focused on integrating with external linters.  

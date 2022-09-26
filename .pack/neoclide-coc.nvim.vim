@@ -1,5 +1,6 @@
 let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-fzf-preview',
       \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql',
+      \ 'coc-webview', 'coc-markdown-preview-enhanced',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
 
 " format
@@ -87,3 +88,6 @@ nnoremap <silent> <leader>th :CocCommand clangd.switchSourceHeader<CR>
 
 " coc-fzf-preview
 let g:fzf_preview_preview_key_bindings = 'ctrl-d:preview-half-page-down,ctrl-u:preview-half-page-up,?:toggle-preview'
+
+" coc-markdown-preview-enhanced
+nnoremap <silent> <leader>md :CocCommand markdown-preview-enhanced.openPreview<CR>

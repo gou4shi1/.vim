@@ -125,12 +125,6 @@
   name: "honza/vim-snippets"
   opt: false
 - 
-  build: "cd app && npm install"
-  category: markdown
-  local: false
-  name: "iamcco/markdown-preview.nvim"
-  opt: false
-- 
   category: navigation
   local: false
   name: "jesseleite/vim-agriculture"
