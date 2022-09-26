@@ -125,19 +125,11 @@
   name: "honza/vim-snippets"
   opt: false
 - 
+  build: "cd app && npm install"
   category: markdown
-  for: 
-    - markdown
   local: false
-  name: "iamcco/markdown-preview.vim"
-  opt: true
-- 
-  category: markdown
-  for: 
-    - markdown
-  local: false
-  name: "iamcco/mathjax-support-for-mkdp"
-  opt: true
+  name: "iamcco/markdown-preview.nvim"
+  opt: false
 - 
   category: navigation
   local: false
