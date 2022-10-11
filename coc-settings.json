@@ -2,7 +2,6 @@
   // General Config
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "coc.preferences.enableLinkedEditing": true,
-  "coc.preferences.extensionUpdateCheck": "weekly",
 
   "codeLens.enable": true,
 
