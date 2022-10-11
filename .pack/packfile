@@ -11,11 +11,6 @@
 - 
   category: git
   local: false
-  name: "Xuyuanp/nerdtree-git-plugin"
-  opt: true
-- 
-  category: git
-  local: false
   name: "airblade/vim-gitgutter"
   opt: false
 - 
@@ -290,11 +285,6 @@
   category: edit
   local: false
   name: scrooloose/nerdcommenter
-  opt: false
-- 
-  category: navigation
-  local: false
-  name: scrooloose/nerdtree
   opt: false
 - 
   category: default
