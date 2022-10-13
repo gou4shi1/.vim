@@ -1,3 +1,6 @@
+let g:Lf_StlColorscheme = 'solarized'
+let g:Lf_PopupColorscheme = 'solarized'
+
 let g:Lf_CacheDirectory = expand('~/.vim')
 let g:Lf_WorkingDirectoryMode = 'Ac'
 

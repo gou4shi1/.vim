@@ -85,11 +85,6 @@
   name: "gou4shi1/vim-indent-guides"
   opt: false
 - 
-  category: appearance
-  local: false
-  name: "gou4shi1/vim-leaderf-solarized-theme"
-  opt: false
-- 
   category: navigation
   local: false
   name: "haya14busa/incsearch-easymotion.vim"
