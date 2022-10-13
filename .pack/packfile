@@ -9,6 +9,12 @@
   name: APZelos/blamer.nvim
   opt: false
 - 
+  build: ./install.sh
+  category: navigation
+  local: false
+  name: Yggdroot/LeaderF
+  opt: false
+- 
   category: git
   local: false
   name: "airblade/vim-gitgutter"
@@ -72,12 +78,6 @@
   category: buffer
   local: false
   name: gou4shi1/GoldenView.Vim
-  opt: false
-- 
-  build: ./install.sh
-  category: navigation
-  local: false
-  name: gou4shi1/LeaderF
   opt: false
 - 
   category: appearance
