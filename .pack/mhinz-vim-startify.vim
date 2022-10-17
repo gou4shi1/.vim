@@ -1,23 +1,16 @@
-" hide quote
+let g:startify_change_to_dir = 0
 let g:startify_custom_header = []
-
-" list
 let g:startify_lists = [
-            \ { 'type': 'files',     'header': [   'MRU']            },
-            \ { 'type': 'dir',       'header': [   'MRU '. getcwd()] },
-            \ { 'type': 'sessions',  'header': [   'Sessions']       },
-            \ { 'type': 'bookmarks', 'header': [   'Bookmarks']      },
-            \ { 'type': 'commands',  'header': [   'Commands']       },
-            \ ]
+        \ { 'type': 'files',     'header': ['MRU']            },
+        \ { 'type': 'dir',       'header': ['MRU ' . getcwd()]},
+        \ { 'type': 'sessions',  'header': ['Sessions']       },
+        \ { 'type': 'bookmarks', 'header': ['Bookmarks']      },
+        \ { 'type': 'commands',  'header': ['Commands']       },
+        \ ]
+let g:startify_bookmarks = [
+        \ {'v': '~/.vim/vimrc'},
+        \ ]
 
-" bookmarks
-  let g:startify_bookmarks    = [
-        \{'v': '~/.vim/vimrc'},
-        \{'z': '~/.zshrc##template'},
-        \{'i': '~/.i3/config'},
-\]
-
-" highlight
 hi link StartifyBracket Punctuation
 hi link StartifyFile String
 hi link StartifyFooter Normal
