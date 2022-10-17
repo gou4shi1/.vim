@@ -99,6 +99,14 @@ https://goushi.me/vim
 
 ## Navigation
 
+- [lambdalisue/fern.vim](https://github.com/lambdalisue/fern.vim)  
+  `-` to open a file tree viewer on the current working directory with the current buffer focused in the current window, i.e. [netrw](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/) style.  
+  `<Leader><Leader>f` to open a project drawer in the sidebar, i.e. [nerdtree](https://github.com/preservim/nerdtree) style.  
+  In the viewer:  
+  `h/j/k/l` to navigate between files/directories, `p/<C-p>` to preview the file under cursor.  
+  `-` or `<CR>` to change the root node to the parent or the selected children node.  
+  `<leader>q` or `:bd` to close the [netrw](https://www.vim.org/scripts/script.php?script_id=1075) style viewer.  
+
 - [junegunn/fzf](https://github.com/junegunn/fzf)  
   As a vim plugin, this repo provide some core integration functions: `fzf#run` and `fzf#wrap`.
 

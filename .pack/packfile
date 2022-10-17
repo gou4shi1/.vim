@@ -9,6 +9,11 @@
   name: APZelos/blamer.nvim
   opt: false
 - 
+  category: fern
+  local: false
+  name: "LumaKernel/fern-mapping-fzf.vim"
+  opt: false
+- 
   build: ./install.sh
   category: navigation
   local: false
@@ -150,11 +155,6 @@
   name: "junegunn/vim-easy-align"
   opt: false
 - 
-  category: navigation
-  local: false
-  name: "justinmk/vim-dirvish"
-  opt: false
-- 
   category: default
   local: false
   name: "kana/vim-submode"
@@ -173,6 +173,41 @@
   category: appearance
   local: false
   name: "kshenoy/vim-signature"
+  opt: false
+- 
+  category: fern
+  local: false
+  name: "lambdalisue/fern-git-status.vim"
+  opt: false
+- 
+  category: fern
+  local: false
+  name: "lambdalisue/fern-hijack.vim"
+  opt: false
+- 
+  category: fern
+  local: false
+  name: "lambdalisue/fern-mapping-git.vim"
+  opt: false
+- 
+  category: fern
+  local: false
+  name: "lambdalisue/fern-renderer-nerdfont.vim"
+  opt: false
+- 
+  category: fern
+  local: false
+  name: lambdalisue/fern.vim
+  opt: false
+- 
+  category: appearance
+  local: false
+  name: "lambdalisue/glyph-palette.vim"
+  opt: false
+- 
+  category: appearance
+  local: false
+  name: lambdalisue/nerdfont.vim
   opt: false
 - 
   category: tex
@@ -385,4 +420,9 @@
   category: edit
   local: false
   name: wellle/targets.vim
+  opt: false
+- 
+  category: fern
+  local: false
+  name: "yuki-yano/fern-preview.vim"
   opt: false
