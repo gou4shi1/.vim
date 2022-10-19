@@ -163,9 +163,6 @@ function! s:SynStack()
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 
-" Keymaps in the builtin terminal.
-tnoremap <ESC><ESC> <C-\><C-n>
-
 " %% -> local path
 cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
 
