@@ -1,4 +1,4 @@
-let g:coc_fzf_location_delay = 10
+let g:coc_fzf_location_delay = 100
 
 " add_list_source(name, description, command)
 call coc_fzf#common#add_list_source('files', 'open files in cwd', 'call timer_start(10, {->execute("Leaderf file .")})')                 " LeaderF
