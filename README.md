@@ -149,7 +149,7 @@ https://goushi.me/vim
   `<C-j>/<C-k>` to incrementally scroll between pages of search matches.
 
 - [haya14busa/incsearch-fuzzy.vim](https://github.com/haya14busa/incsearch-fuzzy.vim)  
-  Incremantal fuzzy search extension for incsearch.vim.  
+  Incremental fuzzy search extension for incsearch.vim.  
   ~`f/`/`f?`/`fz/` to do fuzzy search.~  
   ~`ff/`/`ff?`/`ffz/` to do fuzzy search with the spell feature of vim.~
 
@@ -233,7 +233,7 @@ https://goushi.me/vim
   TODO: Add keymaps for [REPL](https://github.com/kassio/neoterm#repl).
 
 - [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)  
-  `:AsyncRun cmd` to run your comamnd asynchronously and see output in quickfix/floaterm/neoterm.
+  `:AsyncRun cmd` to run your command asynchronously and see output in quickfix/floaterm/neoterm.
 
 - [skywind3000/asynctasks.vim](https://github.com/skywind3000/asynctasks.vim)  
   It uses a `.tasks` file in your project folders for local tasks and uses `~/.vim/tasks.ini` to define global tasks.  

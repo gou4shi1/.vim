@@ -1,4 +1,4 @@
-let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-fzf-preview',
+let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-typos', 'coc-fzf-preview',
       \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql',
       \ 'coc-webview', 'coc-markdown-preview-enhanced',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
@@ -91,3 +91,8 @@ let g:fzf_preview_preview_key_bindings = 'ctrl-d:preview-half-page-down,ctrl-u:p
 
 " coc-markdown-preview-enhanced
 nnoremap <silent> <leader>md :CocCommand markdown-preview-enhanced.openPreview<CR>
+
+" coc-typos
+nmap [s <Plug>(coc-typos-prev)
+nmap ]s <Plug>(coc-typos-next)
+nmap z= <Plug>(coc-typos-fix)
