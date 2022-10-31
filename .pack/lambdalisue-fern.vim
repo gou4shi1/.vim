@@ -1,5 +1,5 @@
 " Mimic vim-dirvish.
-nnoremap - :<C-u>Fern . -reveal=%<CR>
+nnoremap - :<C-u>Fern %:h -reveal=%:p<CR>
 " Mimic nerdtree.
 nnoremap <Leader><Leader>f :<C-u>Fern . -reveal=% -drawer<CR>
 
