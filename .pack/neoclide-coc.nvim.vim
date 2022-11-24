@@ -54,7 +54,8 @@ nnoremap <silent> K :call ShowDocumentation()<CR>
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
-autocmd User CocStatusChange redrawstatus
+" TODO: Find a way that only refresh statusline without cursor flashing.
+" autocmd User CocStatusChange redrawstatus
 
 " outline
 function! ToggleOutline() abort
