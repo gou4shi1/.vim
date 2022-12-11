@@ -1,5 +1,5 @@
 let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-typos', 'coc-fzf-preview',
-      \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql',
+      \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql', 'coc-vimlsp',
       \ 'coc-webview', 'coc-markdown-preview-enhanced',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
 
