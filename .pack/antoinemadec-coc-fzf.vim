@@ -33,5 +33,6 @@ nnoremap <silent> <C-f>s :CocFzfList symbols<CR>
 nnoremap <silent> <C-f>y :CocFzfList yank<CR>
 nnoremap <silent> <C-f>: :CocFzfList cmdhistory<CR>
 nnoremap <silent> <C-f>/ :CocFzfList searchhistory<CR>
-nnoremap <silent> <C-f>c :CocFzfList vimcommands<CR>
+nnoremap <silent> <C-f>c :CocFzfList commands<CR>
+nnoremap <silent> <C-f>v :CocFzfList vimcommands<CR>
 nnoremap <silent> <C-f>g :CocFzfList gitactions<CR>
