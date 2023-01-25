@@ -33,6 +33,10 @@ autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 "nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
 nmap <silent> <C-y> <Plug>(coc-fix-current)
 
+" code action
+nmap <leader><leader>a <Plug>(coc-codeaction-cursor)
+xmap <leader><leader>a <Plug>(coc-codeaction-selected)
+
 " navigation
 " <C-]> to jump to definition, <C-t> to jump back
 set tagfunc=CocTagFunc
