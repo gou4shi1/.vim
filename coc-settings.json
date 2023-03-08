@@ -15,8 +15,6 @@
 
   "inlayHint.enable": false,
 
-  "links.highlight": true,
-
   "outline.previewBorderRounded": true,
 
   "semanticTokens.enable": true,
