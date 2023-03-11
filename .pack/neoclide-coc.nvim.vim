@@ -1,6 +1,6 @@
 let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-typos', 'coc-fzf-preview',
       \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql', 'coc-vimlsp',
-      \ 'coc-webview', 'coc-markdown-preview-enhanced',
+      \ 'coc-webview', 'coc-markdown-preview-enhanced', '@yaegassy/coc-marksman',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
 
 " format
