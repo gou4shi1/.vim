@@ -67,8 +67,13 @@
 
   "languageserver": {
     "nix": {
-      "command": "rnix-lsp",
-      "filetypes": ["nix"]
+      "command": "nil",
+      "filetypes": ["nix"],
+      "settings": {
+        "nil": {
+          "formatting": { "command": ["nixpkgs-fmt"] }
+        }
+      }
     }
   }
 }
