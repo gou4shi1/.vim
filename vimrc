@@ -1,12 +1,5 @@
 """""""""""""""""""""""""""""" General Setting
-set nocompatible
-set nolangremap
-
-filetype plugin indent on
-syntax enable
-
-set encoding=utf-8
-set mouse=a
+source $VIMRUNTIME/defaults.vim
 
 " indent
 set expandtab
@@ -21,18 +14,11 @@ set nofoldenable
 "set foldmethod=syntax
 "set foldmethod=indent
 
-" serach
+" search
 set hlsearch
-set incsearch
 set ignorecase
 set smartcase
 set magic
-
-" command
-set showcmd
-set wildmenu
-set wildoptions=pum
-set history=500
 
 " recovery
 set undofile
@@ -45,8 +31,6 @@ set viewoptions-=options
 
 " timeout
 set timeoutlen=500
-set ttimeout
-set ttimeoutlen=100
 set updatetime=1000
 
 " Auto read the file again when it's detected to have been changed outside.
@@ -55,9 +39,6 @@ set autoread
 "set autowrite
 " Allow moving through the buffers without save.
 set hidden
-
-" Allow backspacing over everything in insert mode.
-set backspace=eol,start,indent
 
 " Allow < > h l to move the cursor to the previous/next line
 "set whichwrap+=<,>,h,l
@@ -69,8 +50,8 @@ set formatoptions+=j
 "set showmatch
 "set mat=2
 
-" Do not recognize octal numbers for Ctrl-A and Ctrl-X.
-set nrformats-=octal
+" Display the completion matches using the popup menu.
+set wildoptions=pum
 
 " Patterns to ignore for expand(), ctrlp, etc.
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.swp,*~,._*,*.pyc,*__pycache__*,*.egg-info
@@ -133,11 +114,6 @@ endif
 " use <Space> as <Leader>
 let mapleader = "\<space>"
 
-" <CTRL-U/W> in insert mode deletes a lot.  Use <CTRL-G>u to first break undo,
-" so that you can undo <CTRL-U/W> after inserting a line break.
-inoremap <C-U> <C-G>u<C-U>
-inoremap <C-W> <C-G>u<C-W>
-
 " Quick select the whole file.
 nnoremap <leader>a ggVG
 
@@ -165,6 +141,3 @@ endfunc
 
 " %% -> local path
 cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
-
-" See the difference between the current buffer and the file it was loaded from, thus the changes you made.
-command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis | wincmd p | diffthis
