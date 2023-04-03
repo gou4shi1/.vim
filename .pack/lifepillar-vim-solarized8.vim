@@ -22,3 +22,5 @@ hi link CocSemStruct Type
 hi link CocSemTypeParameter Type
 hi link CocSemUnknown Normal
 hi link CocSemVariable Normal
+
+hi gitlens guifg=#4b5c6d guibg=NONE gui=italic cterm=italic

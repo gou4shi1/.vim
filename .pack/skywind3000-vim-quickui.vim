@@ -12,7 +12,7 @@ let g:quickui_show_tip = 1
 call quickui#menu#reset()
 
 call quickui#menu#install("&Option", [
-                  \ ['Set &Blamer %{g:blamer_enabled? "Off":"On"}', 'BlamerToggle', 'BlamerToggle'],
+                  \ ['Set &GitLens %{g:GIT_LENS_ENABLED? "Off":"On"}', 'call ToggleGitLens()', 'call ToggleGitLens()'],
                   \ ['Set &Spell %{&spell? "Off":"On"}', 'set spell!', 'set spell!'],
                   \ ])
 

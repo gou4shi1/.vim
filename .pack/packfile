@@ -6,7 +6,7 @@
 - 
   category: git
   local: false
-  name: APZelos/blamer.nvim
+  name: "Eliot00/git-lens.vim"
   opt: false
 - 
   category: fern

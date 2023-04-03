@@ -274,10 +274,10 @@ https://goushi.me/vim
   `Gist` to post current buffer to gist, `:'<,'>Gist` to post selected texts, `:Gist -m` to post all open buffers.  
   `-p` to create a private gist, `-P` to create a public gist, `-a` to create anonymously.
 
-- [APZelos/blamer.nvim](https://github.com/APZelos/blamer.nvim)  
+- [Eliot00/git-lens.vim](https://github.com/Eliot00/git-lens.vim)  
   Show git blame as VS Code's GitLens plugin.  
-  It's disabled by default since it's a little buggy, you can toggle it in the `<F1>` menu.
-  ![blamer gif](https://res.cloudinary.com/djg49e1u9/image/upload/c_crop,h_336/v1579092411/blamer_mkv07c.gif)
+  You can toggle it in the `<F1>` menu.
+  ![git-lens gif](https://user-images.githubusercontent.com/18375468/185842698-f84c7c55-fdbe-4573-817c-e19934c0e436.gif)
 
 ## Appearance 
 
