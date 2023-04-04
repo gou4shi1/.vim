@@ -35,11 +35,6 @@
   name: "antoinemadec/coc-fzf"
   opt: false
 - 
-  category: default
-  local: false
-  name: "dbeniamine/cheat.sh-vim"
-  opt: false
-- 
   category: lsp
   local: false
   name: "dense-analysis/ale"
