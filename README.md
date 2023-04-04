@@ -162,6 +162,12 @@ https://goushi.me/vim
   Improve `*/#/g*/g#` motions: smartcase, work in visual mode.  
   `z*/gz*/z#/gz#` to stay cursor.
 
+- [andymass/vim-matchup](https://github.com/andymass/vim-matchup)  
+  Extends vim's `%` motion to language-specific words.  
+  Highlights symbols and words under the cursor which `%` can work on.  
+  motions: `g%`/`[%`/`]%`/`z%`.  
+  text objects: `i%`/`a%`.
+
 ## Edit
 
 - [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)  
