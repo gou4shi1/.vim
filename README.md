@@ -208,6 +208,9 @@ https://goushi.me/vim
   `<Leader>do` to generate documentations (cursor should on the first line of function).  
   `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
 
+- [tpope/vim-speeddating](https://github.com/tpope/vim-speeddating)  
+  `<C-a>/<C-x>` to increment dates, times, and more.
+
 ## Buffer
 
 - [mhinz/vim-sayonara](https://github.com/mhinz/vim-sayonara)  
