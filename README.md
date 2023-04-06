@@ -99,6 +99,11 @@ https://goushi.me/vim
 
 ## Navigation
 
+- [easymotion/vim-easymotion](https://github.com/easymotion/vim-easymotion)  
+  It takes the `<num>` out of `<num>f{char}` by highlighting all possible choices and allowing you to press one key to jump directly to the target.  
+  `<leader>f{char}` to jump to any `{char}` in the screen directly.  
+  `<leader>j/k` to jump to any line in the screen directly.
+
 - [lambdalisue/fern.vim](https://github.com/lambdalisue/fern.vim)  
   `-` to open a file tree viewer on the parent directory of the current buffer in the current window, i.e. [netrw](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/) style.  
   `<Leader><Leader>f` to open a project drawer in the sidebar, i.e. [nerdtree](https://github.com/preservim/nerdtree) style.  
