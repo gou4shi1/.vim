@@ -55,16 +55,6 @@
   name: "easymotion/vim-easymotion"
   opt: false
 - 
-  category: snippets
-  local: false
-  name: "epilande/vim-es2015-snippets"
-  opt: false
-- 
-  category: snippets
-  local: false
-  name: "epilande/vim-react-snippets"
-  opt: false
-- 
   category: buffer
   local: false
   name: "farmergreg/vim-lastplace"
@@ -249,6 +239,11 @@
   category: default
   local: false
   name: "mhinz/vim-startify"
+  opt: false
+- 
+  category: snippets
+  local: false
+  name: "mlaursen/vim-react-snippets"
   opt: false
 - 
   category: buffer
