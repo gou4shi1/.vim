@@ -21,6 +21,8 @@
 
   "session.saveOnVimLeave": false,
 
+  "snippets.snipmate.enable": false,
+
   "suggest.completionItemKindLabels": {
     "keyword": "",
     "variable": "",
