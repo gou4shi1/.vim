@@ -257,11 +257,6 @@
   name: neoclide/coc.nvim
   opt: false
 - 
-  category: highlight
-  local: false
-  name: "neoclide/vim-jsx-improve"
-  opt: false
-- 
   category: appearance
   local: false
   name: "preservim/vim-indent-guides"
