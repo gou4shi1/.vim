@@ -287,7 +287,7 @@
   name: "rlue/vim-barbaric"
   opt: false
 - 
-  category: default
+  category: buffer
   local: false
   name: "romainl/vim-qf"
   opt: false

@@ -235,6 +235,14 @@ https://goushi.me/vim
 - [gou4shi1/GoldenView.Vim](https://github.com/gou4shi1/GoldenView.Vim)  
   Automatically resize the focused split window to a "golden" view based on golden ratio and textwidth.
 
+- [romainl/vim-qf](https://github.com/romainl/vim-qf)  
+  A collection of settings, commands and mappings to tame the quickfix/location window.  
+  Quickfix buffers are hidden from `:ls` and buffer navigation.  
+  Quit Vim if the last window is a quickfix/location window.  
+  Close the location window automatically when quitting parent window.  
+  And some commands that are only available in the quickfix/location window.  
+  `<leader><leader>l` to toggle the location window.
+
 ## Run
 
 - [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm)  

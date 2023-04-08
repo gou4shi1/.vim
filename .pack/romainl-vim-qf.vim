@@ -5,4 +5,3 @@ let g:qf_auto_open_quickfix = 0
 
 " toggle location window
 nmap <Leader><Leader>l <Plug>(qf_loc_toggle)
-
