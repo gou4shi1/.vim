@@ -69,6 +69,9 @@ https://goushi.me/vim
 
 ## Default
 
+- [mhinz/vim-startify](https://github.com/mhinz/vim-startify)  
+  Provides a start screen to show recently used or bookmarked files and persistent sessions.
+
 - [rhysd/devdocs.vim](https://github.com/rhysd/devdocs.vim)  
   `<leader>K` to search the word under cursor in [devdocs.io](https://devdocs.io).  
   `:DevDocs [query]` to search *query* with filetype related documentations.
