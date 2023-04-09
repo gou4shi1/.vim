@@ -69,6 +69,10 @@ https://goushi.me/vim
 
 ## Default
 
+- [rhysd/devdocs.vim](https://github.com/rhysd/devdocs.vim)  
+  `<leader>K` to search the word under cursor in [devdocs.io](https://devdocs.io).  
+  `:DevDocs [query]` to search *query* with filetype related documentations.
+
 - [kana/vim-submode](https://github.com/kana/vim-submode)  
   Create your own submode keymaps.  
   For example, `<C-w><<<` to resize split window quickly.
