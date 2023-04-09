@@ -69,16 +69,16 @@ https://goushi.me/vim
 
 ## Default
 
-- [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)  
-  A bundle of hundreds of vim plugins:  
-  Provides syntax and indentation support (no other features) for [almost all commonly used languages](https://github.com/sheerun/vim-polyglot#language-packs).  
-  Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).
-
 - [kana/vim-submode](https://github.com/kana/vim-submode)  
   Create your own submode keymaps.  
   For example, `<C-w><<<` to resize split window quickly.
 
-## LSP
+## Language
+
+- [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)  
+  A bundle of hundreds of vim plugins:  
+  Provides syntax and indentation support (no other features) for [almost all commonly used languages](https://github.com/sheerun/vim-polyglot#language-packs).  
+  Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).
 
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)  
   A [LSP](https://microsoft.github.io/language-server-protocol) client that can load js extensions like VSCode.  
@@ -96,6 +96,9 @@ https://goushi.me/vim
 - [dense-analysis/ale](https://github.com/dense-analysis/ale)  
   A LSP client that focused on integrating with external linters.  
   It supports many filetypes by default, so it's a good supplement to CoC.
+
+- [lervag/vimtex](https://github.com/lervag/vimtex)  
+  A modern filetype and syntax plugin for LaTeX files.
 
 ## Navigation
 
