@@ -1,4 +1,5 @@
-let g:polyglot_disabled = ['sensible', 'latex']
+" disable settings from vim-sensible
+let g:polyglot_disabled = ['sensible']
 
 " markdown
 let g:vim_markdown_new_list_item_indent = 2
