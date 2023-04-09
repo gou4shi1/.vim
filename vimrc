@@ -95,6 +95,9 @@ set pumheight=20
 " Put the new splitting window right of the current one by default.
 set splitright
 
+" Concealed text is completely hidden unless it has a custom replacement character defined.
+set conceallevel=2
+
 " Set default whitespace characters when using `:set list`
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 
