@@ -308,3 +308,6 @@ https://goushi.me/vim
 
 - [jszakmeister/vim-togglecursor](https://github.com/jszakmeister/vim-togglecursor)  
   Toggle the cursor shape when entering the insert mode.
+
+- [luochen1990/rainbow](https://github.com/luochen1990/rainbow)  
+  Show different levels of parentheses in different colors.

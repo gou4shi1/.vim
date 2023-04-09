@@ -205,7 +205,7 @@
   name: "ludovicchabant/vim-gutentags"
   opt: false
 - 
-  category: highlight
+  category: appearance
   local: false
   name: luochen1990/rainbow
   opt: false
