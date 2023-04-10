@@ -6,7 +6,7 @@
   "codeLens.enable": true,
 
   "diagnostic.enableMessage": "jump",
-  "diagnostic.virtualText": true,
+  "diagnostic.virtualText": false,
   "diagnostic.virtualTextAlign": "right",
   "diagnostic.virtualTextLevel": "warning",
   "diagnostic.virtualTextLimitInOneLine": 1,
