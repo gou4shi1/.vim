@@ -339,6 +339,11 @@
 - 
   category: edit
   local: false
+  name: "tpope/vim-abolish"
+  opt: false
+- 
+  category: edit
+  local: false
   name: "tpope/vim-capslock"
   opt: false
 - 

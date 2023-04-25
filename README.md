@@ -219,6 +219,17 @@ https://goushi.me/vim
   Insert spaces before closing characters.  
   Only some filetype-based characters are enabled in config.
 
+- [tpope/vim-abolish](https://github.com/tpope/vim-abolish)  
+  Work with several variants of a word at once.  
+  `crs` to coerce to snake_case, `crc` to camelCase, `crm` to MixedCase  
+  `cru` to coerce to UPPER_CASE, `cr-` to dash-case, `cr.` to dot.case  
+  `:Abolish {despa,sepe}rat{e,es,ed,ing,ely,ion,ions,or} {despe,sepa}rat{}` to produce 48 `iabbrev`.  
+  `:%S/facilit{y,ies}/building{,s}/g` will be expanded to
+  ``` viml
+  :%s/facility/building/g
+  :%s/Facilities/Buildings/g
+  :%s/FACILITIES/BUILDINGS/g
+  ```
 - [kkoomen/vim-doge](https://github.com/kkoomen/vim-doge)  
   `<Leader>do` to generate documentations (cursor should on the first line of function).  
   `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
