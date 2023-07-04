@@ -2,24 +2,16 @@
 let g:Lf_StlColorscheme = 'solarized'
 let g:Lf_PopupColorscheme = 'solarized'
 let g:Lf_WindowPosition = 'popup'
-let g:Lf_PreviewInPopup = 1
-" let g:Lf_PopupPreviewPosition = 'right'
-let g:Lf_PopupShowBorder = 1
-let g:Lf_PopupBorders = ["─","│","─","│","╭","╮","╯","╰"]
+let g:Lf_PopupPreviewPosition = 'top'
 let g:Lf_StlSeparator = { 'left': '', 'right': '' }
 let g:Lf_HideHelp = 1
 
 " Behavior
-let g:Lf_CacheDirectory = expand('~/.vim')
 let g:Lf_WorkingDirectoryMode = 'Ac'
 let g:Lf_PreviewScrollStepSize = 10
 let g:Lf_PreviewResult = {
-      \ 'Tag': 1,
-      \ 'BufTag': 1,
-      \ 'Function': 1,
-      \ 'Line': 1,
-      \ 'Rg': 1,
-      \ 'QuickFix': 1,
+      \ 'File': 0,
+      \ 'Buffer': 0,
       \}
 
 " Config keymaps in coc-fzf.
