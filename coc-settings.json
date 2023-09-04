@@ -2,7 +2,7 @@
   // General Config
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "coc.preferences.enableLinkedEditing": true,
-  "coc.preferences.tagDefinitionTimeout": 800,
+  "coc.preferences.tagDefinitionTimeout": 1200,
 
   "codeLens.enable": true,
 
