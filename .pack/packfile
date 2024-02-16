@@ -9,6 +9,11 @@
   name: "Eliot00/git-lens.vim"
   opt: false
 - 
+  category: language
+  local: false
+  name: "HealsCodes/vim-gas"
+  opt: false
+- 
   category: fern
   local: false
   name: "LumaKernel/fern-mapping-fzf.vim"

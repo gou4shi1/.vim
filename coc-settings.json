@@ -77,6 +77,15 @@
           "formatting": { "command": ["nixpkgs-fmt"] }
         }
       }
+    },
+    "asm-lsp": {
+      "command": "asm-lsp",
+      "filetypes": [
+        "asm",
+        "gas",
+        "s",
+        "S"
+      ]
     }
   }
 }
