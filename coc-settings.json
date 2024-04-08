@@ -4,6 +4,8 @@
   "coc.preferences.enableLinkedEditing": true,
   "coc.preferences.tagDefinitionTimeout": 1200,
 
+  "coc.source.around.priority": 100,
+
   "codeLens.enable": true,
 
   "diagnostic.enableMessage": "jump",
