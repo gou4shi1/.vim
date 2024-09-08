@@ -120,10 +120,6 @@ let mapleader = "\<space>"
 " Quick select the whole file.
 nnoremap <leader>a ggVG
 
-" Copy to and paste from the system clipboard.
-vnoremap <Leader>y "+y
-nnoremap <Leader>p "+p
-
 " Clear highlights.
 nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 

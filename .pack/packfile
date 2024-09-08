@@ -262,6 +262,11 @@
   name: neoclide/coc.nvim
   opt: false
 - 
+  category: edit
+  local: false
+  name: "ojroques/vim-oscyank"
+  opt: false
+- 
   category: appearance
   local: false
   name: "preservim/vim-indent-guides"
