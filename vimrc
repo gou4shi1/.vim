@@ -101,6 +101,12 @@ set conceallevel=2
 " Set default whitespace characters when using `:set list`
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 
+if $TERM ==# 'xterm-kitty'
+  set ttymouse=sgr
+  set balloonevalterm
+  autocmd VimEnter,VimLeave * call system('kitten @ set-background-opacity --toggle 1')
+endif
+
 """""""""""""""""""""""""""""" Builtin Plugins
 """""""""" Termdebug
 " Let termdebug split vertically.
