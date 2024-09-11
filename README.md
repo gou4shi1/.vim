@@ -107,6 +107,9 @@ https://goushi.me/vim
 - [lervag/vimtex](https://github.com/lervag/vimtex)  
   A modern filetype and syntax plugin for LaTeX files.
 
+- [HealsCodes/vim-gas](https://github.com/lervag/vimtex)  
+  Advanced syntax highlighting for GNU asm files.
+
 ## Navigation
 
 - [easymotion/vim-easymotion](https://github.com/easymotion/vim-easymotion)  
