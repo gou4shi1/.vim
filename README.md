@@ -87,6 +87,9 @@ https://goushi.me/vim
   Provides syntax and indentation support (no other features) for [almost all commonly used languages](https://github.com/sheerun/vim-polyglot#language-packs).  
   Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).
 
+- [honza/vim-snippets](https://github.com/sheerun/vim-polyglot)  
+  This repository contains snippets files for various programming languages.
+
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)  
   A [LSP](https://microsoft.github.io/language-server-protocol) client that can load js extensions like VSCode.  
   `<C-k/j>` to navigate between diagnostics, `<C-y>` to auto fix the current diagnostic.  
