@@ -143,6 +143,9 @@ https://goushi.me/vim
   `RgRaw` provide the ability to pass command line options to `rg` (compared with `Rg`).  
   `<C-f>r` to grep visual selection (in visual mode) or word under cursor (in normal mode).
 
+- [dyng/ctrlsf.vim](https://github.com/jesseleite/vim-agriculture)  
+  Similar to `<C-f>r`, but `<C-f>w` can merge contexts of adjacent grep results.
+
 - [dkprice/vim-easygrep](https://github.com/dkprice/vim-easygrep)  
   `<leader>vv/vr` to grep/replace in the open buffers (`<leader>vo` to change options).
 
