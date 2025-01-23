@@ -16,7 +16,7 @@
   "diagnostic.virtualTextLines": 1,
   "diagnostic.virtualTextPrefix": "   ",
 
-  "inlayHint.enable": false,
+  "inlayHint.display": false,
 
   "outline.previewBorderRounded": true,
 

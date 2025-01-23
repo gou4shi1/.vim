@@ -90,6 +90,7 @@ nmap <F2> <Plug>(coc-rename)
 
 " coc-clangd
 nnoremap <silent> <leader>th :CocCommand clangd.switchSourceHeader<CR>
+nnoremap <silent> <leader>il :CocCommand document.toggleInlayHint<CR>
 
 " coc-fzf-preview
 let g:fzf_preview_preview_key_bindings = 'ctrl-d:preview-half-page-down,ctrl-u:preview-half-page-up,?:toggle-preview'
