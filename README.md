@@ -243,6 +243,9 @@ https://goushi.me/vim
   `<Leader>do` to generate documentations (cursor should on the first line of function).  
   `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
 
+- [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align)  
+  `ga{motion/textobject}{align-char}` (or `ga{align-char}` in visual mode) to align selected lines with align char, e.g. `gaip=` or `vipga=` to align lines in current paragraph with `=`.
+
 - [tpope/vim-speeddating](https://github.com/tpope/vim-speeddating)  
   `<C-a>/<C-x>` to increment dates, times, and more.
 
