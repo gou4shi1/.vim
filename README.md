@@ -192,6 +192,12 @@ https://goushi.me/vim
   motions: `g%`/`[%`/`]%`/`z%`.  
   text objects: `i%`/`a%`.
 
+- [kshenoy/vim-signature](https://github.com/kshenoy/vim-signature)  
+  Manage and display marks:  
+  `mx`/`m.` to toggle mark at current cursor.  
+  `m-`/`m<spacee>` to delete all marks from the current line/buffer.  
+  `['`/`]'`/`'[`/`']`/`m/` to navigate between marks.
+
 ## Edit
 
 - [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)  
