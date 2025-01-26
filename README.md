@@ -351,5 +351,8 @@ https://goushi.me/vim
 - [luochen1990/rainbow](https://github.com/luochen1990/rainbow)  
   Show different levels of parentheses in different colors.
 
+- [preservim/vim-indent-guides](https://github.com/preservim/vim-indent-guides)  
+  Visually display indent levels.
+
 - [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)  
   Adds file type icons to Vim plugins such as: NERDTree, vim-airline, vim-startify.
