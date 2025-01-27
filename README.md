@@ -80,6 +80,9 @@ https://goushi.me/vim
   Create your own submode keymaps.  
   For example, `<C-w><<<` to resize split window quickly.
 
+- [mattn/webapi-vim](https://github.com/mattn/webapi-vim)  
+  An interface to web APIs. This plugin is depended by vim-gists.
+
 ## Language
 
 - [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)  
@@ -87,7 +90,7 @@ https://goushi.me/vim
   Provides syntax and indentation support (no other features) for [almost all commonly used languages](https://github.com/sheerun/vim-polyglot#language-packs).  
   Automatically detects indentation (optimized version of [vim-sleuth](https://github.com/tpope/vim-sleuth)).
 
-- [honza/vim-snippets](https://github.com/sheerun/vim-polyglot)  
+- [honza/vim-snippets](https://github.com/honza/vim-snippets)  
   This repository contains snippets files for various programming languages.
 
 - [mlaursen/vim-react-snippets](https://github.com/mlaursen/vim-react-snippets)  
