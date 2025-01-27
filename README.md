@@ -356,3 +356,6 @@ https://goushi.me/vim
 
 - [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)  
   Adds file type icons to Vim plugins such as: NERDTree, vim-airline, vim-startify.
+
+- [lambdalisue/vim-glyph-palette](https://github.com/lambdalisue/vim-glyph-palette)  
+  Universally apply colors on Nerd Fonts, e.g. vim-devicons, vim-nerdfont and vim-fern-renderer-nerdfont will be nicely highlighted.
