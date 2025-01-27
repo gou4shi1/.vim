@@ -254,6 +254,10 @@ https://goushi.me/vim
   :%s/Facilities/Buildings/g
   :%s/FACILITIES/BUILDINGS/g
   ```
+
+- [simnalamburt/vim-mundo](https://github.com/simnalamburt/vim-mundo)  
+  `<Leader><Leader>u` to visualize the Vim undo tree.
+
 - [kkoomen/vim-doge](https://github.com/kkoomen/vim-doge)  
   `<Leader>do` to generate documentations (cursor should on the first line of function).  
   `<C-j>/<C-k>` to jump between TODO items of the documentation generated.
