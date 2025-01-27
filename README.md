@@ -90,6 +90,9 @@ https://goushi.me/vim
 - [honza/vim-snippets](https://github.com/sheerun/vim-polyglot)  
   This repository contains snippets files for various programming languages.
 
+- [mlaursen/vim-react-snippets](https://github.com/mlaursen/vim-react-snippets)  
+  A collection of common Javascript and Typescript snippets for developing React.
+
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)  
   A [LSP](https://microsoft.github.io/language-server-protocol) client that can load js extensions like VSCode.  
   `<C-k/j>` to navigate between diagnostics, `<C-y>` to auto fix the current diagnostic.  
