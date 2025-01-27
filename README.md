@@ -206,6 +206,9 @@ https://goushi.me/vim
 
 ## Edit
 
+- [sbdchd/neoformat](https://github.com/sbdchd/neoformat)  
+  `<Leader>=` to format the entire buffer or visual selection with various formatters (prefer using coc-formatt).
+
 - [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)  
   `<Leader>cc` to comment out the current line or text selected in visual mode.  
   `<Leader>cl` to align at left.  
