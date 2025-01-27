@@ -337,11 +337,6 @@
   name: skywind3000/gutentags_plus
   opt: false
 - 
-  category: navigation
-  local: false
-  name: "skywind3000/vim-preview"
-  opt: false
-- 
   category: appearance
   local: false
   name: "skywind3000/vim-quickui"

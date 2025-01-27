@@ -1,12 +1,16 @@
-" <F1> to open the menu
-noremap <F1> :call quickui#menu#open()<CR>
-
 " appearance
 let g:quickui_border_style = 2
 let g:quickui_color_scheme = 'solarized'
-
-" display tips in the cmdline
 let g:quickui_show_tip = 1
+
+" preview quickfix
+augroup MyQuickfixPreview
+  au!
+  au FileType qf noremap <silent><buffer> p :call quickui#tools#preview_quickfix()<cr>
+augroup END
+
+" <F1> to open the menu
+noremap <F1> :call quickui#menu#open()<CR>
 
 " setup all the menus
 call quickui#menu#reset()

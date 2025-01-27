@@ -370,6 +370,10 @@ https://goushi.me/vim
 - [preservim/vim-indent-guides](https://github.com/preservim/vim-indent-guides)  
   Visually display indent levels.
 
+- [skywind3000/vim-quickui](https://github.com/skywind3000/vim-quickui)  
+  `<F1>` to toggle the help menu.  
+  `p` in the quickfix window to open a preview window.
+
 - [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)  
   Adds file type icons to Vim plugins such as: NERDTree, vim-airline, vim-startify.
 
