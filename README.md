@@ -261,6 +261,9 @@ https://goushi.me/vim
 - [tpope/vim-speeddating](https://github.com/tpope/vim-speeddating)  
   `<C-a>/<C-x>` to increment dates, times, and more.
 
+- [ojroques/vim-oscyank](https://github.com/ojroques/vim-oscyank)  
+  `<Leader>y` to copy text from remote SSH sessions to the system clipboard using the ANSI OSC52 sequence.
+
 ## Buffer
 
 - [mhinz/vim-sayonara](https://github.com/mhinz/vim-sayonara)  
