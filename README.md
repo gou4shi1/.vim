@@ -282,6 +282,10 @@ https://goushi.me/vim
 - [tpope/vim-speeddating](https://github.com/tpope/vim-speeddating)  
   `<C-a>/<C-x>` to increment dates, times, and more.
 
+- [tpope/vim-repeat](https://github.com/tpope/vim-repeat)  
+  It remaps `.` in a way that plugins can tap into it.  
+  The following plugins support it: surround.vim, speeddating.vim and unimpaired.vim.
+
 - [ojroques/vim-oscyank](https://github.com/ojroques/vim-oscyank)  
   `<Leader>y` to copy text from remote SSH sessions to the system clipboard using the ANSI OSC52 sequence.
 
