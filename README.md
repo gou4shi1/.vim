@@ -279,6 +279,13 @@ https://goushi.me/vim
 - [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align)  
   `ga{motion/textobject}{align-char}` (or `ga{align-char}` in visual mode) to align selected lines with align char, e.g. `gaip=` or `vipga=` to align lines in current paragraph with `=`.
 
+- [tpope/vim-rsi](https://github.com/tpope/vim-rsi)  
+  Get the most useful key bindings from Readline (similar to Emacs) without blindly overriding built-in Vim functionality.  
+  `<C-a>`/`<C-e>` to jump to the start/end of current line in insert mode (similar as `<Home>`/`<End>`).  
+  `<C-b>`/`<C-f>` to jump to the left/right char in insert mode (similar as `<Left>`/`<Right>`).  
+  `<M-b>`/`<M-f>` to jump to the previous/next word (similar as `<C- <- >`/`<C- -> >`).  
+  `<C-d>` to delete the next char in insert mode (similar as `<Del>`).
+
 - [tpope/vim-speeddating](https://github.com/tpope/vim-speeddating)  
   `<C-a>/<C-x>` to increment dates, times, and more.
 

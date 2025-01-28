@@ -4,3 +4,4 @@ autocmd filetype lisp,scheme,art let b:AutoPairs = {'(':')'}
 
 let g:AutoPairsMapCR = 0
 let g:AutoPairsMultilineClose = 0
+let g:AutoPairsShortcutBackInsert = ''
