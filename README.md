@@ -83,6 +83,16 @@ https://goushi.me/vim
 - [mattn/webapi-vim](https://github.com/mattn/webapi-vim)  
   An interface to web APIs. This plugin is depended by vim-gists.
 
+- [tpope/vim-eunuch](https://github.com/tpope/vim-eunuch)  
+  `:Delete` to delete a file on disk and the buffer too.  
+  `:Remove` to delete a file on disk but keep the buffer.  
+  `:Move`/`:Rename`/`:Copy` to rename a buffer and the file on disk simultaneously.  
+  `:Chmod` to change the permissions of the current file.  
+  `:Mkdir` to create a directory, defaulting to the parent of the current file.  
+  `:Wall`/`:W` to write every open window instead of buffers.  
+  `:SudoWrite`/`:SudoEdit` to write/edit a privileged file with sudo.  
+  Typing a shebang line causes the file type to be re-detected, and the file will be automatically made executable (chmod +x) after the next write.
+
 ## Language
 
 - [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)  
