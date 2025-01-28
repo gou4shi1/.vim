@@ -305,6 +305,10 @@ https://goushi.me/vim
 - [ojroques/vim-oscyank](https://github.com/ojroques/vim-oscyank)  
   `<Leader>y` to copy text from remote SSH sessions to the system clipboard using the ANSI OSC52 sequence.
 
+- [vim-scripts/DrawIt](https://github.com/vim-scripts/DrawIt)  
+  `<Leader>di`/`<Leader>ds` to start/stop DrawIt mode.  
+  In DrawIt mode, use `<left>`/`<right>`/`<up>`/`<down>`/`<`/`>`/`^`/`v`/... to draw dashes/arrows.
+
 ## Buffer
 
 - [mhinz/vim-sayonara](https://github.com/mhinz/vim-sayonara)  
