@@ -255,6 +255,10 @@ https://goushi.me/vim
   :%s/FACILITIES/BUILDINGS/g
   ```
 
+- [tpope/vim-capslock](https://github.com/tpope/vim-capslock)  
+  `<C-G>c` in insert mode to toggle a temporary software caps lock.  
+  `gC` in normal mode to toggle a slightly more permanent one.
+
 - [simnalamburt/vim-mundo](https://github.com/simnalamburt/vim-mundo)  
   `<Leader><Leader>u` to visualize the Vim undo tree.
 
