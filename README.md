@@ -72,16 +72,14 @@ https://goushi.me/vim
 - [mhinz/vim-startify](https://github.com/mhinz/vim-startify)  
   Provides a start screen to show recently used or bookmarked files and persistent sessions.
 
-- [rhysd/devdocs.vim](https://github.com/rhysd/devdocs.vim)  
-  `<leader>K` to search the word under cursor in [devdocs.io](https://devdocs.io).  
-  `:DevDocs [query]` to search *query* with filetype related documentations.
-
-- [kana/vim-submode](https://github.com/kana/vim-submode)  
-  Create your own submode keymaps.  
-  For example, `<C-w><<<` to resize split window quickly.
-
-- [mattn/webapi-vim](https://github.com/mattn/webapi-vim)  
-  An interface to web APIs. This plugin is depended by vim-gists.
+- [tpope/vim-unimpaired](https://github.com/tpope/vim-unimpaired)  
+  `[b`/`]b` to navigate between buffers.  
+  `[t`/`]t` to navigate between tabs.  
+  `[f`/`]f` to navigate between files in current file's directory alphabetically.  
+  `[<Space>`/`]<Space>` to add `[count]` blank lines before/below the cursor.  
+  `[e`/`]e` to exchange the current line with `[count]` lines above/below it.  
+  `[p`/`]p` to paste before/after linewise.  
+  `=p`/`=P` to paste before/after linewise, reindenting.
 
 - [tpope/vim-eunuch](https://github.com/tpope/vim-eunuch)  
   `:Delete` to delete a file on disk and the buffer too.  
@@ -92,6 +90,17 @@ https://goushi.me/vim
   `:Wall`/`:W` to write every open window instead of buffers.  
   `:SudoWrite`/`:SudoEdit` to write/edit a privileged file with sudo.  
   Typing a shebang line causes the file type to be re-detected, and the file will be automatically made executable (chmod +x) after the next write.
+
+- [kana/vim-submode](https://github.com/kana/vim-submode)  
+  Create your own submode keymaps.  
+  For example, `<C-w><<<` to resize split window quickly.
+
+- [rhysd/devdocs.vim](https://github.com/rhysd/devdocs.vim)  
+  `<leader>K` to search the word under cursor in [devdocs.io](https://devdocs.io).  
+  `:DevDocs [query]` to search *query* with filetype related documentations.
+
+- [mattn/webapi-vim](https://github.com/mattn/webapi-vim)  
+  An interface to web APIs. This plugin is depended by vim-gists.
 
 ## Language
 
