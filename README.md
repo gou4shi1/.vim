@@ -395,6 +395,12 @@ https://goushi.me/vim
 - [lifepillar/vim-solarized8](https://github.com/lifepillar/vim-solarized8)  
   A solarized colorscheme that is optimized for true-color terminals.
 
+- [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)  
+  Lean & mean status/tabline for vim.
+
+- [vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)  
+  A collection of themes for vim-airline.
+
 - [jszakmeister/vim-togglecursor](https://github.com/jszakmeister/vim-togglecursor)  
   Toggle the cursor shape when entering the insert mode.
 
