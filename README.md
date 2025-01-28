@@ -246,6 +246,36 @@ https://goushi.me/vim
   To select the previously selected text object, press `<BS>`.
   ![Preview](https://github.com/gcmt/wildfire.vim/raw/master/_assets/preview.gif)
 
+- [wellle/targets.vim](https://github.com/wellle/targets.vim)  
+  It adds various text objects to expand the idea of built-in `di'`.  
+  Pair text objects: `()`/`{}`/`[]`/`<>`.  
+  Quote text objects: `'`/`"`/`` ` ``.  
+  Separator text objects: `,`/`.`/`;`/`:`/`+`/`-`/`=`/`~`/`_`/`*`/`#`/`/`/`|`/`\`/`&`/`$`.  
+  Argument text objects: similar to separator text objects, but are specialized for arguments surrounded by braces and commas.  
+  Any text objects: `nb` for any block, `nq` for any quote.
+  ```
+  a ( b ( cccccccc ) d ) e
+    │   └─── a) ───┘   │
+    └────── 2a) ───────┘
+
+  a ( b ( cccccccc ) d ) e
+     │   └── i) ──┘   │
+     └───── 2i) ──────┘
+
+  a ( b ( cccccccc ) d ) e
+      │   └─ I) ─┘   │
+      └──── 2I) ─────┘
+
+  func( xxxxxxxxx , yyyyy )
+        └── aa ────┘
+
+  func( xxxxxxxxx , yyyyy )
+       └── ia ───┘
+
+  func( xxxxxxxxx , yyyyy )
+        └── Ia ─┘
+  ```
+
 - [vim-sandwich](https://github.com/machakann/vim-sandwich)  
   Use keymaps from [vim-surround](https://github.com/tpope/vim-surround):  
   `ys{motion/textobject}{surrounding}` (or `S{surrounding}` in visual mode) to add `surrounding`, e.g. `ysiw)` makes `foo` to `(foo)` (use `(` instead of `)` to add spaces).  
