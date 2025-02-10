@@ -1,12 +1,12 @@
 let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-typos', 'coc-fzf-preview',
-      \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql', 'coc-vimlsp',
+      \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql', 'coc-vimlsp', 'coc-lua',
       \ 'coc-webview', 'coc-markdown-preview-enhanced', '@yaegassy/coc-marksman',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
 
 " format
 let g:coc_trim_trailing_whitespace = 1
 let g:coc_trim_final_newlines = 1
-autocmd FileType c,cpp,javascript,javascriptreact,json,jsonc,nix,python,sql,typescript,typescriptreact,yaml
+autocmd FileType c,cpp,javascript,javascriptreact,json,jsonc,nix,python,sql,typescript,typescriptreact,yaml,lua
       \ setl formatexpr=CocAction('formatSelected')
 
 " completion

@@ -70,6 +70,8 @@
   "python.pythonPath": "python3",
   "python.formatting.provider": "yapf",
 
+  "Lua.diagnostics.globals": ["vim"],
+
   "languageserver": {
     "nix": {
       "command": "nil",
