@@ -6,6 +6,7 @@ set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set shiftround
 set nofixeol
 "set smartindent
 "set autoindent
@@ -54,8 +55,8 @@ set formatoptions+=j
 " Display the completion matches using the popup menu.
 set wildoptions=pum
 
-" Patterns to ignore for expand(), ctrlp, etc.
-set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.swp,*~,._*,*.pyc,*__pycache__*,*.egg-info
+" Completion mode for wildchar, first tab to the longest common part, second tab to the full match.
+set wildmode=longest:full,full
 
 " Automatically creates `foo/bar/` as needed when `:w foo/bar/baz.txt`
 autocmd BufWritePre,FileWritePre * silent! call mkdir(expand('<afile>:p:h'), 'p')
