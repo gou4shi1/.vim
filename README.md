@@ -159,9 +159,6 @@ https://goushi.me/vim
 - [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)  
   This repo is a bundle of fzf-based [commands and mappings](https://github.com/junegunn/fzf.vim#commands), such as `Rg`.
 
-- [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)  
-  Seems only the [Interactive Git Integration](https://github.com/yuki-ycino/fzf-preview.vim#interactive-git-integration-integrate-with-fugitive-or-gina) is useful.
-
 - [antoinemadec/coc-fzf](https://github.com/antoinemadec/coc-fzf)  
   This plugin uses fzf in place of Coc's built-in CocList sources as well as Coc's jumps (definition, reference etc).  
   `CocFzfList` is a drop-in replacement of `CocList`, you can also `add_list_source` for other useful commands.  

@@ -1,4 +1,4 @@
-let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-typos', 'coc-fzf-preview',
+let g:coc_global_extensions=['coc-lists', 'coc-yank', 'coc-snippets', 'coc-typos',
       \ 'coc-clangd', 'coc-json', 'coc-yaml', 'coc-sh', 'coc-pyright', 'coc-go', 'coc-sql', 'coc-vimlsp', 'coc-lua',
       \ 'coc-webview', 'coc-markdown-preview-enhanced', '@yaegassy/coc-marksman',
       \ 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-styled-components']
@@ -91,9 +91,6 @@ nmap <F2> <Plug>(coc-rename)
 " coc-clangd
 nnoremap <silent> <leader>th :CocCommand clangd.switchSourceHeader<CR>
 nnoremap <silent> <leader>il :CocCommand document.toggleInlayHint<CR>
-
-" coc-fzf-preview
-let g:fzf_preview_preview_key_bindings = 'ctrl-d:preview-half-page-down,ctrl-u:preview-half-page-up,?:toggle-preview'
 
 " coc-markdown-preview-enhanced
 nnoremap <silent> <leader>md :CocCommand markdown-preview-enhanced.openPreview<CR>
