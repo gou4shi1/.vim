@@ -307,11 +307,6 @@
   name: sbdchd/neoformat
   opt: false
 - 
-  category: edit
-  local: false
-  name: scrooloose/nerdcommenter
-  opt: false
-- 
   category: language
   local: false
   name: "sheerun/vim-polyglot"

@@ -225,12 +225,6 @@ https://goushi.me/vim
 - [sbdchd/neoformat](https://github.com/sbdchd/neoformat)  
   `<Leader>=` to format the entire buffer or visual selection with various formatters (prefer using coc-formatt).
 
-- [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)  
-  `<Leader>cc` to comment out the current line or text selected in visual mode.  
-  `<Leader>cl` to align at left.  
-  `<Leader>cs` to comment out the selected lines with a pretty block formatted layout.  
-  `<Leader>cu` to uncomment the selected line(s).
-
 - [mg979/vim-visual-multi](https://github.com/mg979/vim-visual-multi)  
   To create multiple cursors:  
   Select words with `<C-n>`, or select characters with `<S-Right/Left>`, then `n/N` to get the next/previous occurrence, `q` to skip current and get the next.  

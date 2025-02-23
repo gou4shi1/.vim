@@ -110,6 +110,9 @@ if $TERM ==# 'xterm-kitty'
 endif
 
 """""""""""""""""""""""""""""" Builtin Plugins
+"""""""""" Comment
+packadd comment
+
 """""""""" Termdebug
 " Let termdebug split vertically.
 let g:termdebug_wide = 1
