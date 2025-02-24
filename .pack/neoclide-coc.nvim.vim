@@ -25,7 +25,6 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<C
 " snippet
 command SnipFiles CocCommand snippets.openSnippetFiles
 command SnipUser CocCommand snippets.editSnippets
-autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 
 " diagnostic
 " Config keymaps in w0rp/ale
