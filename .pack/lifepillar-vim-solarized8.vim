@@ -10,17 +10,16 @@ hi LspCxxHlGroupMemberVariable guifg=Grey
 
 " https://github.com/neoclide/coc.nvim/blob/27b709bd0919b385726516a101d1709c4c4be852/plugin/coc.vim#L439
 " https://reviews.llvm.org/source/llvm-github/browse/main/clang-tools-extra/clangd/SemanticHighlighting.cpp$946
-hi link CocSemClass Type
-hi link CocSemConcept Type
-hi link CocSemDependent Type
-hi link CocSemEnum Type
-hi link CocSemEnumMember LspCxxHlGroupEnumConstant 
-hi link CocSemNamespace LspCxxHlGroupNamespace 
-hi link CocSemParameter Normal
-hi link CocSemProperty LspCxxHlGroupMemberVariable 
-hi link CocSemStruct Type
-hi link CocSemTypeParameter Type
-hi link CocSemUnknown Normal
-hi link CocSemVariable Normal
+hi link CocSemTypeClass Type
+hi link CocSemTypeConcept Type
+hi link CocSemTypeEnum Type
+hi link CocSemTypeEnumMember LspCxxHlGroupEnumConstant 
+hi link CocSemTypeNamespace LspCxxHlGroupNamespace 
+hi link CocSemTypeParameter Normal
+hi link CocSemTypeProperty LspCxxHlGroupMemberVariable 
+hi link CocSemTypeStruct Type
+hi link CocSemTypeTypeParameter Type
+hi link CocSemTypeUnknown Normal
+hi link CocSemTypeVariable Normal
 
 hi gitlens guifg=#4b5c6d guibg=NONE gui=italic cterm=italic
