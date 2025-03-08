@@ -28,9 +28,9 @@ command SnipUser CocCommand snippets.editSnippets
 
 " diagnostic
 " Config keymaps in w0rp/ale
-"nmap <silent> <C-k> <Plug>(coc-diagnostic-prev)
-"nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
-nmap <silent> <C-y> <Plug>(coc-fix-current)
+"nmap <silent> [d <Plug>(coc-diagnostic-prev)
+"nmap <silent> ]d <Plug>(coc-diagnostic-next)
+nmap <silent> <localleader>d <Plug>(coc-fix-current)
 
 " code action
 nmap <leader><leader>a <Plug>(coc-codeaction-cursor)
