@@ -33,16 +33,16 @@ command SnipUser CocCommand snippets.editSnippets
 nmap <silent> <localleader>d <Plug>(coc-fix-current)
 
 " code action
-nmap <leader><leader>a <Plug>(coc-codeaction-cursor)
-xmap <leader><leader>a <Plug>(coc-codeaction-selected)
+nmap gra <Plug>(coc-codeaction-cursor)
+xmap gra <Plug>(coc-codeaction-selected)
 
 " navigation
 " <C-]> to jump to definition, <C-t> to jump back
 set tagfunc=CocTagFunc
-nmap <silent> <leader>tr <Plug>(coc-references)
-nmap <silent> <leader>tu <Plug>(coc-references-used)
-nmap <silent> <leader>tt <Plug>(coc-type-definition)
-nmap <silent> <leader>ti <Plug>(coc-implementation)
+nmap <silent> grr <Plug>(coc-references)
+nmap <silent> gru <Plug>(coc-references-used)
+nmap <silent> grt <Plug>(coc-type-definition)
+nmap <silent> gri <Plug>(coc-implementation)
 
 " hover
 function! ShowDocumentation() abort
@@ -85,11 +85,11 @@ xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
 
 " rename
-nmap <F2> <Plug>(coc-rename)
+nmap grn <Plug>(coc-rename)
 
 " coc-clangd
-nnoremap <silent> <leader>th :CocCommand clangd.switchSourceHeader<CR>
-nnoremap <silent> <leader>il :CocCommand document.toggleInlayHint<CR>
+nnoremap <silent> grh :CocCommand clangd.switchSourceHeader<CR>
+nnoremap <silent> <leader>ih :CocCommand document.toggleInlayHint<CR>
 
 " coc-markdown-preview-enhanced
 nnoremap <silent> <leader>md :CocCommand markdown-preview-enhanced.openPreview<CR>
